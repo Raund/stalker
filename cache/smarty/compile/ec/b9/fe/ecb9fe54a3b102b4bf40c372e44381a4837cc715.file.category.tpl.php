@@ -1,4 +1,4 @@
-<?php /* Smarty version Smarty-3.1.19, created on 2016-10-03 12:19:06
+<?php /* Smarty version Smarty-3.1.19, created on 2016-10-03 12:53:58
          compiled from "D:\Webserver\domains\stalker.loc\themes\stalker\category.tpl" */ ?>
 <?php /*%%SmartyHeaderCode:987657f2228af2fd63-52979968%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
@@ -7,7 +7,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     'ecb9fe54a3b102b4bf40c372e44381a4837cc715' => 
     array (
       0 => 'D:\\Webserver\\domains\\stalker.loc\\themes\\stalker\\category.tpl',
-      1 => 1475482761,
+      1 => 1475488438,
       2 => 'file',
     ),
   ),
@@ -15,6 +15,8 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   'function' => 
   array (
   ),
+  'version' => 'Smarty-3.1.19',
+  'unifunc' => 'content_57f2228b141736_22300858',
   'variables' => 
   array (
     'category' => 0,
@@ -30,8 +32,6 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     'scenes' => 0,
   ),
   'has_nocache_code' => false,
-  'version' => 'Smarty-3.1.19',
-  'unifunc' => 'content_57f2228b141736_22300858',
 ),false); /*/%%SmartyHeaderCode%%*/?>
 <?php if ($_valid && !is_callable('content_57f2228b141736_22300858')) {function content_57f2228b141736_22300858($_smarty_tpl) {?><?php echo $_smarty_tpl->getSubTemplate (((string)$_smarty_tpl->tpl_vars['tpl_dir']->value)."./errors.tpl", $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, 0, null, array(), 0);?>
 
@@ -111,8 +111,8 @@ $_smarty_tpl->tpl_vars['subcategory']->_loop = true;
             <?php if ($_smarty_tpl->tpl_vars['scenes']->value||$_smarty_tpl->tpl_vars['category']->value->description||$_smarty_tpl->tpl_vars['category']->value->id_image) {?>
 
                 <?php if ($_smarty_tpl->tpl_vars['category']->value->description) {?>
-<div class="article-box"><?php echo $_smarty_tpl->tpl_vars['category']->value->description;?>
-</div>
+<!--<div class="article-box"><?php echo $_smarty_tpl->tpl_vars['category']->value->description;?>
+</div>-->
 <?php }?>
 
 

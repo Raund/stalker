@@ -1,4 +1,4 @@
-<?php /* Smarty version Smarty-3.1.19, created on 2016-10-03 12:48:21
+<?php /* Smarty version Smarty-3.1.19, created on 2016-10-03 12:51:51
          compiled from "D:\Webserver\domains\stalker.loc\themes\stalker\product-list.tpl" */ ?>
 <?php /*%%SmartyHeaderCode:1988957f2229c9ccf79-66995135%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
@@ -7,7 +7,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     '8e760aa6b213ba04d7a6791ab243e5aef93d71bc' => 
     array (
       0 => 'D:\\Webserver\\domains\\stalker.loc\\themes\\stalker\\product-list.tpl',
-      1 => 1475488101,
+      1 => 1475488284,
       2 => 'file',
     ),
   ),

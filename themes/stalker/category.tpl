@@ -57,7 +57,7 @@
             {if $scenes || $category->description || $category->id_image}
 
                 {if $category->description}
-<div class="article-box">{$category->description}</div>
+<!--<div class="article-box">{$category->description}</div>-->
 {/if}
 
 
