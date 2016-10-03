@@ -1,4 +1,4 @@
-<?php /*%%SmartyHeaderCode:2706157f255fd858719-06435418%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+<?php /*%%SmartyHeaderCode:1390757f28af12c77d8-63274440%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
@@ -9,14 +9,14 @@ $_valid = $_smarty_tpl->decodeProperties(array (
       2 => 'file',
     ),
   ),
-  'nocache_hash' => '2706157f255fd858719-06435418',
+  'nocache_hash' => '1390757f28af12c77d8-63274440',
   'variables' => 
   array (
     'products' => 0,
   ),
   'has_nocache_code' => false,
   'version' => 'Smarty-3.1.19',
-  'unifunc' => 'content_57f255fd886745_03789025',
+  'unifunc' => 'content_57f28af1301220_29587497',
   'cache_lifetime' => 31536000,
 ),true); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_57f255fd886745_03789025')) {function content_57f255fd886745_03789025($_smarty_tpl) {?><ul id="homefeatured" class="homefeatured tab-pane"><li class="alert alert-info">В данный момент нет популярных товаров.</li></ul><?php }} ?>
+<?php if ($_valid && !is_callable('content_57f28af1301220_29587497')) {function content_57f28af1301220_29587497($_smarty_tpl) {?><ul id="homefeatured" class="homefeatured tab-pane"><li class="alert alert-info">В данный момент нет популярных товаров.</li></ul><?php }} ?>

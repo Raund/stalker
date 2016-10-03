@@ -1,6 +1,6 @@
-<?php /* Smarty version Smarty-3.1.19, created on 2016-10-03 15:58:37
+<?php /* Smarty version Smarty-3.1.19, created on 2016-10-03 19:44:33
          compiled from "D:\OpenServer\domains\stalker.loc\modules\smartbloghomelatestnews\views\templates\front\smartblog_latest_news.tpl" */ ?>
-<?php /*%%SmartyHeaderCode:323157f255fd738ee4-93230507%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+<?php /*%%SmartyHeaderCode:2983757f28af10d4858-93052721%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
@@ -11,7 +11,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
       2 => 'file',
     ),
   ),
-  'nocache_hash' => '323157f255fd738ee4-93230507',
+  'nocache_hash' => '2983757f28af10d4858-93052721',
   'function' => 
   array (
   ),
@@ -23,9 +23,9 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   ),
   'has_nocache_code' => false,
   'version' => 'Smarty-3.1.19',
-  'unifunc' => 'content_57f255fd76bcc2_74039999',
+  'unifunc' => 'content_57f28af110c542_23521099',
 ),false); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_57f255fd76bcc2_74039999')) {function content_57f255fd76bcc2_74039999($_smarty_tpl) {?><?php if (isset($_smarty_tpl->tpl_vars['view_data']->value)&&!empty($_smarty_tpl->tpl_vars['view_data']->value)) {?>
+<?php if ($_valid && !is_callable('content_57f28af110c542_23521099')) {function content_57f28af110c542_23521099($_smarty_tpl) {?><?php if (isset($_smarty_tpl->tpl_vars['view_data']->value)&&!empty($_smarty_tpl->tpl_vars['view_data']->value)) {?>
     <div class="article-box">
         <?php $_smarty_tpl->tpl_vars['i'] = new Smarty_variable(1, null, 0);?>
         <?php  $_smarty_tpl->tpl_vars['post'] = new Smarty_Variable; $_smarty_tpl->tpl_vars['post']->_loop = false;
