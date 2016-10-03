@@ -17,9 +17,9 @@
 		<h1 {if (isset($subcategories) && !$products) || (isset($subcategories) && $products) || !isset($subcategories) && $products}{/if}>{$category->name|escape:'html':'UTF-8'}</h1>
 		<div class="item-container">
 			<div class="primary_block row">
-			
+			<h3 itemprop="name">{$product->name|escape:'html':'UTF-8'}</h3>
 			<!-- left infos-->
-			<div class="pb-left-column col-xs-12 col-sm-4 col-md-7">
+			<div class="pb-left-column col-xs-12">
 				<!-- product img-->
 				<div id="image-block" class="clearfix">
 					
@@ -27,10 +27,10 @@
 					<span id="view_full_size">
 						{if $jqZoomEnabled && $have_image && !$content_only}
 							<a class="jqzoom" title="{if !empty($cover.legend)}{$cover.legend|escape:'html':'UTF-8'}{else}{$product->name|escape:'html':'UTF-8'}{/if}" rel="gal1" href="{$link->getImageLink($product->link_rewrite, $cover.id_image, 'thickbox_default')|escape:'html':'UTF-8'}">
-								<img itemprop="image" src="{$link->getImageLink($product->link_rewrite, $cover.id_image)|escape:'html':'UTF-8'}" title="{if !empty($cover.legend)}{$cover.legend|escape:'html':'UTF-8'}{else}{$product->name|escape:'html':'UTF-8'}{/if}" alt="{if !empty($cover.legend)}{$cover.legend|escape:'html':'UTF-8'}{else}{$product->name|escape:'html':'UTF-8'}{/if}"/>
+								<img itemprop="image" src="{$link->getImageLink($product->link_rewrite, $cover.id_image)|escape:'html':'UTF-8'}" title="{if !empty($cover.legend)}{$cover.legend|escape:'html':'UTF-8'}{else}{$product->name|escape:'html':'UTF-8'}{/if}" alt="{if !empty($cover.legend)}{$cover.legend|escape:'html':'UTF-8'}{else}{$product->name|escape:'html':'UTF-8'}{/if}" width="460px" height="360px" />
 							</a>
 						{else}
-							<img id="bigpic" itemprop="image" src="{$link->getImageLink($product->link_rewrite, $cover.id_image)|escape:'html':'UTF-8'}" title="{if !empty($cover.legend)}{$cover.legend|escape:'html':'UTF-8'}{else}{$product->name|escape:'html':'UTF-8'}{/if}" alt="{if !empty($cover.legend)}{$cover.legend|escape:'html':'UTF-8'}{else}{$product->name|escape:'html':'UTF-8'}{/if}" width="{$largeSize.width}" height="{$largeSize.height}"/>
+							<img id="bigpic" itemprop="image" src="{$link->getImageLink($product->link_rewrite, $cover.id_image)|escape:'html':'UTF-8'}" title="{if !empty($cover.legend)}{$cover.legend|escape:'html':'UTF-8'}{else}{$product->name|escape:'html':'UTF-8'}{/if}" alt="{if !empty($cover.legend)}{$cover.legend|escape:'html':'UTF-8'}{else}{$product->name|escape:'html':'UTF-8'}{/if}" width="460px" height="360px"/>
 						{/if}
 					</span>
 				{else}
@@ -94,8 +94,8 @@
 			</div> <!-- end pb-left-column -->
 			<!-- end left infos-->
 			<!-- center infos -->
-			<div class="pb-center-column col-xs-12 col-sm-4 col-md-5">
-				<h1 itemprop="name">{$product->name|escape:'html':'UTF-8'}</h1>
+			<div class="pb-center-column product-page-description col-xs-12 col-sm-12 col-md-12">
+				
 				{if isset($product) && $product->description}
 				<!-- More info -->
 				<section class="page-product-box">

@@ -1,4 +1,4 @@
-<?php /* Smarty version Smarty-3.1.19, created on 2016-10-03 19:26:13
+<?php /* Smarty version Smarty-3.1.19, created on 2016-10-03 21:15:00
          compiled from "D:\OpenServer\domains\stalker.loc\themes\stalker\modules\blockcontactinfos\blockcontactinfos.tpl" */ ?>
 <?php /*%%SmartyHeaderCode:831557f286a582d744-16222148%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
@@ -7,7 +7,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     'ccf1f6c6a5f4b78c0957f4ae6c253e632390987b' => 
     array (
       0 => 'D:\\OpenServer\\domains\\stalker.loc\\themes\\stalker\\modules\\blockcontactinfos\\blockcontactinfos.tpl',
-      1 => 1475415907,
+      1 => 1475517659,
       2 => 'file',
     ),
   ),
@@ -15,6 +15,9 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   'function' => 
   array (
   ),
+  'cache_lifetime' => 31536000,
+  'version' => 'Smarty-3.1.19',
+  'unifunc' => 'content_57f286a5922c12_75380696',
   'variables' => 
   array (
     'blockcontactinfos_company' => 0,
@@ -41,8 +44,6 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     'blockcontactinfos_email' => 0,
   ),
   'has_nocache_code' => false,
-  'version' => 'Smarty-3.1.19',
-  'unifunc' => 'content_57f286a5922c12_75380696',
 ),false); /*/%%SmartyHeaderCode%%*/?>
 <?php if ($_valid && !is_callable('content_57f286a5922c12_75380696')) {function content_57f286a5922c12_75380696($_smarty_tpl) {?><?php if (!is_callable('smarty_function_mailto')) include 'D:\\OpenServer\\domains\\stalker.loc\\tools\\smarty\\plugins\\function.mailto.php';
 ?>
