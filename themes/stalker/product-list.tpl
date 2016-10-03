@@ -157,43 +157,10 @@
 
 			</div><!-- .product-container> -->
     </div>
-    {break}
+
 	{/foreach}
 
-    <h3 class="col-md-12 cat-h3">{l s='Другие модели в категории'} <span style="text-transform:lowercase;">{$category->name|escape:'html':'UTF-8'}</span></h3>
     
-    <script>
-        $('.owl-carousel').owlCarousel({
-            navText: [ '', '' ],
-            autoWidth: true,
-            loop:true,
-            margin:20,
-            nav:true,
-            responsive:{
-                0:{
-                    items:1
-                },
-                600:{
-                    items:3
-                },
-                1000:{
-                    items:5
-                }
-            }
-        })
-    </script>
-
-    <div class="col-md-12 carousel">
-        <ul class="owl-carousel">
-            {foreach from=$products item=product name=products}
-                <li class="item"><a class="product_img_link"	href="{$product.link|escape:'html':'UTF-8'}" title="{$product.name|escape:'html':'UTF-8'}" itemprop="url"><img class="replace-2x img-responsive" src="{$link->getImageLink($product.link_rewrite, $product.id_image)|escape:'html':'UTF-8'}" alt="{if !empty($product.legend)}{$product.legend|escape:'html':'UTF-8'}{else}{$product.name|escape:'html':'UTF-8'}{/if}" title="{if !empty($product.legend)}{$product.legend|escape:'html':'UTF-8'}{else}{$product.name|escape:'html':'UTF-8'}{/if}" {if isset($homeSize)} width="{$homeSize.width}" height="{$homeSize.height}"{/if} itemprop="image" /></a></li>
-            {/foreach}
-        </ul>
-
-    </div>
-
-
-
 {addJsDefL name=min_item}{l s='Please select at least one product' js=1}{/addJsDefL}
 {addJsDefL name=max_item}{l s='You cannot add more than %d product(s) to the product comparison' sprintf=$comparator_max_item js=1}{/addJsDefL}
 {addJsDef comparator_max_item=$comparator_max_item}
