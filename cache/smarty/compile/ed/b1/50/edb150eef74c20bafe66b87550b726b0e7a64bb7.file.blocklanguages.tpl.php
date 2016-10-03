@@ -1,6 +1,6 @@
-<?php /* Smarty version Smarty-3.1.19, created on 2016-10-02 17:29:32
+<?php /* Smarty version Smarty-3.1.19, created on 2016-10-03 15:58:38
          compiled from "D:\OpenServer\domains\stalker.loc\themes\stalker\modules\blocklanguages\blocklanguages.tpl" */ ?>
-<?php /*%%SmartyHeaderCode:2890557f119ccd42659-50730332%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+<?php /*%%SmartyHeaderCode:989057f255fea80976-92605512%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
@@ -11,7 +11,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
       2 => 'file',
     ),
   ),
-  'nocache_hash' => '2890557f119ccd42659-50730332',
+  'nocache_hash' => '989057f255fea80976-92605512',
   'function' => 
   array (
   ),
@@ -26,9 +26,9 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   ),
   'has_nocache_code' => false,
   'version' => 'Smarty-3.1.19',
-  'unifunc' => 'content_57f119ccda8175_21959834',
+  'unifunc' => 'content_57f255feae1e15_54520312',
 ),false); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_57f119ccda8175_21959834')) {function content_57f119ccda8175_21959834($_smarty_tpl) {?><?php if (!is_callable('smarty_modifier_regex_replace')) include 'D:\\OpenServer\\domains\\stalker.loc\\tools\\smarty\\plugins\\modifier.regex_replace.php';
+<?php if ($_valid && !is_callable('content_57f255feae1e15_54520312')) {function content_57f255feae1e15_54520312($_smarty_tpl) {?><?php if (!is_callable('smarty_modifier_regex_replace')) include 'D:\\OpenServer\\domains\\stalker.loc\\tools\\smarty\\plugins\\modifier.regex_replace.php';
 ?><div class="col-xs-5 col-sm-2 col-md-2">
 <!-- Block languages module -->
     <?php if (count($_smarty_tpl->tpl_vars['languages']->value)>1) {?>

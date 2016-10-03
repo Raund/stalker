@@ -8744,10 +8744,10 @@ ul {
 
 .categories-wrap {
   width: 100%;
-  min-height: 750px;
+  min-height: 400px;
   padding-top: 70px;
-  padding-left: 70px;
-  padding-right: 70px;
+  padding-left: 30px;
+  padding-right: 30px;
   background-color: #FFF;
   text-align: center; }
   .categories {
@@ -9666,3 +9666,30 @@ span.view_scroll_spacer {
 .fancybox-skin a{
   text-decoration: none;
 }
+
+
+/* REDESIGN */
+.categories-wrap .categories-item{
+    margin-right: 0;
+    margin-bottom: 60px;
+  }
+  .categories-wrap .categories-item .categories-name{
+    width: 90%;
+    margin: 0 auto;
+  }
+
+.copyright{
+  width: 100%;
+  border-top: 1px solid #333;
+  background-color: #000;
+  color: #333;
+  font-size: 13px;
+  line-height: 16px;
+  text-align: center;
+  padding: 20px;
+}
+.copyright p{
+  margin-top: 10px;
+  font-size: 14px;
+}
+/*END REDESIGN */
