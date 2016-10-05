@@ -59,6 +59,7 @@
         </div>
         <div class="col-md-3">
             <ul class="contact">
+                <!--Контакты первого элемента-->
                 <li>
                     {if $blockcontactinfos_phone != ''}
                     {$blockcontactinfos_phone|escape:'html':'UTF-8'}
@@ -74,12 +75,66 @@
                         {$blockcontactinfos_phone3|escape:'html':'UTF-8'}
                     {/if}
                 </li>
-                <li><a href="mailto:stalker@ukr.net">
+                <li>
                     {if $blockcontactinfos_email != ''}
                     {mailto address=$blockcontactinfos_email|escape:'html':'UTF-8' encode="hex"}
                     {/if}
-                    </a>
+
                 </li>
+                <li>
+                    {if $blockcontactinfos_email2 != ''}
+                        {mailto address=$blockcontactinfos_email2|escape:'html':'UTF-8' encode="hex"}
+                    {/if}
+                </li>
+                <!--/Контакты первого элемента-->
+                <!--Контакты второго элемента-->
+                <li>
+                    {if $blockcontactinfos_phone4 != ''}
+                        {$blockcontactinfos_phone4|escape:'html':'UTF-8'}
+                    {/if}
+                </li>
+                <li>
+                    {if $blockcontactinfos_phone5 != ''}
+                        {$blockcontactinfos_phone5|escape:'html':'UTF-8'}
+                    {/if}
+                </li>
+                <li>
+                    {if $blockcontactinfos_phone6 != ''}
+                        {$blockcontactinfos_phone6|escape:'html':'UTF-8'}
+                    {/if}
+                </li>
+                <li>
+                    {if $blockcontactinfos_email3 != ''}
+                        {mailto address=$blockcontactinfos_email3|escape:'html':'UTF-8' encode="hex"}
+                    {/if}
+
+                </li>
+                <li>
+                    {if $blockcontactinfos_email4 != ''}
+                        {mailto address=$blockcontactinfos_email4|escape:'html':'UTF-8' encode="hex"}
+                    {/if}
+
+                </li>
+                <li>
+                    {if $blockcontactinfos_email4 != ''}
+                        {mailto address=$blockcontactinfos_email4|escape:'html':'UTF-8' encode="hex"}
+                    {/if}
+                </li>
+                <li>
+                    {if $blockcontactinfos_email5 != ''}
+                        <a href="#" class="more">Карта доезда<i class="fa fa-angle-down"></i></a>
+                        <div class="spoiler-body" style="display: none;"><iframe src="{$blockcontactinfos_email5}" width="400" height="300" frameborder="0" style="border:0" allowfullscreen></iframe></div>
+                    {/if}
+
+
+                </li>
+                <li>
+                    {if $blockcontactinfos_email4=6 != ''}
+                        <a href="#" class="more">Карта доезда<i class="fa fa-angle-down"></i></a>
+                        <div class="spoiler-body" style="display: none;"><iframe src="{$blockcontactinfos_email6}" width="400" height="300" frameborder="0" style="border:0" allowfullscreen></iframe></div>
+                    {/if}
+                </li>
+                <!--/Контакты второго элемента-->
             </ul>
         </div>
               <div class="col-md-6">
@@ -120,8 +175,15 @@
                 </div>
             </form>
         </div>
-    </div>
-</footer>
+<script type="text/javascript">
+    $(document).ready(function(){
+        $('.more').click(function(){
+            $(this).parent().children('.spoiler-body').slideToggle(700);
+            $('.more i').toggleClass('fa-angle-down').toggleClass('fa-angle-up');
+            return false;
+        });
+    });
+</script>
 <script>
     $(function(){
         if($('#first-languages li:first-child.selected').length){
