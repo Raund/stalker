@@ -1,51 +1,51 @@
-<?php /* Smarty version Smarty-3.1.19, created on 2016-10-03 21:15:00
+<?php /* Smarty version Smarty-3.1.19, created on 2016-10-04 12:06:51
          compiled from "D:\OpenServer\domains\stalker.loc\themes\stalker\modules\blockcontactinfos\blockcontactinfos.tpl" */ ?>
-<?php /*%%SmartyHeaderCode:831557f286a582d744-16222148%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+<?php /*%%SmartyHeaderCode:2563957f343019b3442-94140166%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
     'ccf1f6c6a5f4b78c0957f4ae6c253e632390987b' => 
     array (
       0 => 'D:\\OpenServer\\domains\\stalker.loc\\themes\\stalker\\modules\\blockcontactinfos\\blockcontactinfos.tpl',
-      1 => 1475517659,
+      1 => 1475572009,
       2 => 'file',
     ),
   ),
-  'nocache_hash' => '831557f286a582d744-16222148',
+  'nocache_hash' => '2563957f343019b3442-94140166',
   'function' => 
   array (
   ),
   'cache_lifetime' => 31536000,
   'version' => 'Smarty-3.1.19',
-  'unifunc' => 'content_57f286a5922c12_75380696',
+  'unifunc' => 'content_57f34301ab2d92_02809600',
   'variables' => 
   array (
     'blockcontactinfos_company' => 0,
     'blockcontactinfos_address' => 0,
     'blockcontactinfos_headquarters' => 0,
-    'blockcontactinfos_company2' => 0,
-    'blockcontactinfos_address2' => 0,
-    'blockcontactinfos_headquarters2' => 0,
     'blockcontactinfos_company3' => 0,
     'blockcontactinfos_address3' => 0,
     'blockcontactinfos_headquarters3' => 0,
-    'blockcontactinfos_company4' => 0,
-    'blockcontactinfos_address4' => 0,
-    'blockcontactinfos_headquarters4' => 0,
     'blockcontactinfos_company5' => 0,
     'blockcontactinfos_address5' => 0,
     'blockcontactinfos_headquarters5' => 0,
-    'blockcontactinfos_company6' => 0,
-    'blockcontactinfos_address6' => 0,
-    'blockcontactinfos_headquarters6' => 0,
     'blockcontactinfos_phone' => 0,
     'blockcontactinfos_phone2' => 0,
     'blockcontactinfos_phone3' => 0,
     'blockcontactinfos_email' => 0,
+    'blockcontactinfos_company2' => 0,
+    'blockcontactinfos_address2' => 0,
+    'blockcontactinfos_headquarters2' => 0,
+    'blockcontactinfos_company4' => 0,
+    'blockcontactinfos_address4' => 0,
+    'blockcontactinfos_headquarters4' => 0,
+    'blockcontactinfos_company6' => 0,
+    'blockcontactinfos_address6' => 0,
+    'blockcontactinfos_headquarters6' => 0,
   ),
   'has_nocache_code' => false,
 ),false); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_57f286a5922c12_75380696')) {function content_57f286a5922c12_75380696($_smarty_tpl) {?><?php if (!is_callable('smarty_function_mailto')) include 'D:\\OpenServer\\domains\\stalker.loc\\tools\\smarty\\plugins\\function.mailto.php';
+<?php if ($_valid && !is_callable('content_57f34301ab2d92_02809600')) {function content_57f34301ab2d92_02809600($_smarty_tpl) {?><?php if (!is_callable('smarty_function_mailto')) include 'D:\\OpenServer\\domains\\stalker.loc\\tools\\smarty\\plugins\\function.mailto.php';
 ?>
 
 <!-- Модуль контактов в футере -->
@@ -66,17 +66,6 @@ $_valid = $_smarty_tpl->decodeProperties(array (
 
                     <?php }?>
                 </div>
-                <div class="adr2_rus">
-                    <?php if ($_smarty_tpl->tpl_vars['blockcontactinfos_company2']->value!='') {?>
-                        <?php echo htmlspecialchars($_smarty_tpl->tpl_vars['blockcontactinfos_company2']->value, ENT_QUOTES, 'UTF-8', true);?>
-<?php if ($_smarty_tpl->tpl_vars['blockcontactinfos_address2']->value!='') {?>, <?php echo htmlspecialchars($_smarty_tpl->tpl_vars['blockcontactinfos_address2']->value, ENT_QUOTES, 'UTF-8', true);?>
-<?php }?>
-                    <?php }?>
-                    <?php if ($_smarty_tpl->tpl_vars['blockcontactinfos_headquarters2']->value!='') {?>
-                        <?php echo htmlspecialchars($_smarty_tpl->tpl_vars['blockcontactinfos_headquarters2']->value, ENT_QUOTES, 'UTF-8', true);?>
-
-                    <?php }?>
-                </div>
                 <div class="adr1_ukr">
                     <?php if ($_smarty_tpl->tpl_vars['blockcontactinfos_company3']->value!='') {?>
                         <?php echo htmlspecialchars($_smarty_tpl->tpl_vars['blockcontactinfos_company3']->value, ENT_QUOTES, 'UTF-8', true);?>
@@ -85,17 +74,6 @@ $_valid = $_smarty_tpl->decodeProperties(array (
                     <?php }?>
                     <?php if ($_smarty_tpl->tpl_vars['blockcontactinfos_headquarters3']->value!='') {?></br>
                         <?php echo htmlspecialchars($_smarty_tpl->tpl_vars['blockcontactinfos_headquarters3']->value, ENT_QUOTES, 'UTF-8', true);?>
-
-                    <?php }?>
-                </div>
-                <div class="adr2_ukr">
-                    <?php if ($_smarty_tpl->tpl_vars['blockcontactinfos_company4']->value!='') {?>
-                        <?php echo htmlspecialchars($_smarty_tpl->tpl_vars['blockcontactinfos_company4']->value, ENT_QUOTES, 'UTF-8', true);?>
-<?php if ($_smarty_tpl->tpl_vars['blockcontactinfos_address4']->value!='') {?>, <?php echo htmlspecialchars($_smarty_tpl->tpl_vars['blockcontactinfos_address4']->value, ENT_QUOTES, 'UTF-8', true);?>
-<?php }?>
-                    <?php }?>
-                    <?php if ($_smarty_tpl->tpl_vars['blockcontactinfos_headquarters4']->value!='') {?></br>
-                        <?php echo htmlspecialchars($_smarty_tpl->tpl_vars['blockcontactinfos_headquarters4']->value, ENT_QUOTES, 'UTF-8', true);?>
 
                     <?php }?>
                 </div>
@@ -110,21 +88,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
 
                     <?php }?>
                 </div>
-                <div class="adr2_en">
-                    <?php if ($_smarty_tpl->tpl_vars['blockcontactinfos_company6']->value!='') {?>
-                        <?php echo htmlspecialchars($_smarty_tpl->tpl_vars['blockcontactinfos_company6']->value, ENT_QUOTES, 'UTF-8', true);?>
-<?php if ($_smarty_tpl->tpl_vars['blockcontactinfos_address6']->value!='') {?>, <?php echo htmlspecialchars($_smarty_tpl->tpl_vars['blockcontactinfos_address6']->value, ENT_QUOTES, 'UTF-8', true);?>
-<?php }?>
-                    <?php }?>
-                    <?php if ($_smarty_tpl->tpl_vars['blockcontactinfos_headquarters6']->value!='') {?></br>
-                        <?php echo htmlspecialchars($_smarty_tpl->tpl_vars['blockcontactinfos_headquarters6']->value, ENT_QUOTES, 'UTF-8', true);?>
-
-                    <?php }?>
-                </div>
-            </div>
-        </div>
-        <div class="col-md-3">
-            <ul class="contact">
+                <ul class="contact">
                 <li>
                     <?php if ($_smarty_tpl->tpl_vars['blockcontactinfos_phone']->value!='') {?>
                     <?php echo htmlspecialchars($_smarty_tpl->tpl_vars['blockcontactinfos_phone']->value, ENT_QUOTES, 'UTF-8', true);?>
@@ -151,8 +115,74 @@ $_valid = $_smarty_tpl->decodeProperties(array (
                     </a>
                 </li>
             </ul>
+            </div>
         </div>
-              <div class="col-md-6">
+        <div class="col-md-3">
+            <div class="address">
+                <div class="adr2_rus">
+                    <?php if ($_smarty_tpl->tpl_vars['blockcontactinfos_company2']->value!='') {?>
+                        <?php echo htmlspecialchars($_smarty_tpl->tpl_vars['blockcontactinfos_company2']->value, ENT_QUOTES, 'UTF-8', true);?>
+<?php if ($_smarty_tpl->tpl_vars['blockcontactinfos_address2']->value!='') {?>, <?php echo htmlspecialchars($_smarty_tpl->tpl_vars['blockcontactinfos_address2']->value, ENT_QUOTES, 'UTF-8', true);?>
+<?php }?>
+                    <?php }?>
+                    <?php if ($_smarty_tpl->tpl_vars['blockcontactinfos_headquarters2']->value!='') {?>
+                        <?php echo htmlspecialchars($_smarty_tpl->tpl_vars['blockcontactinfos_headquarters2']->value, ENT_QUOTES, 'UTF-8', true);?>
+
+                    <?php }?>
+                </div>
+                <div class="adr2_ukr">
+                    <?php if ($_smarty_tpl->tpl_vars['blockcontactinfos_company4']->value!='') {?>
+                        <?php echo htmlspecialchars($_smarty_tpl->tpl_vars['blockcontactinfos_company4']->value, ENT_QUOTES, 'UTF-8', true);?>
+<?php if ($_smarty_tpl->tpl_vars['blockcontactinfos_address4']->value!='') {?>, <?php echo htmlspecialchars($_smarty_tpl->tpl_vars['blockcontactinfos_address4']->value, ENT_QUOTES, 'UTF-8', true);?>
+<?php }?>
+                    <?php }?>
+                    <?php if ($_smarty_tpl->tpl_vars['blockcontactinfos_headquarters4']->value!='') {?></br>
+                        <?php echo htmlspecialchars($_smarty_tpl->tpl_vars['blockcontactinfos_headquarters4']->value, ENT_QUOTES, 'UTF-8', true);?>
+
+                    <?php }?>
+                </div>
+                <div class="adr2_en">
+                    <?php if ($_smarty_tpl->tpl_vars['blockcontactinfos_company6']->value!='') {?>
+                        <?php echo htmlspecialchars($_smarty_tpl->tpl_vars['blockcontactinfos_company6']->value, ENT_QUOTES, 'UTF-8', true);?>
+<?php if ($_smarty_tpl->tpl_vars['blockcontactinfos_address6']->value!='') {?>, <?php echo htmlspecialchars($_smarty_tpl->tpl_vars['blockcontactinfos_address6']->value, ENT_QUOTES, 'UTF-8', true);?>
+<?php }?>
+                    <?php }?>
+                    <?php if ($_smarty_tpl->tpl_vars['blockcontactinfos_headquarters6']->value!='') {?></br>
+                        <?php echo htmlspecialchars($_smarty_tpl->tpl_vars['blockcontactinfos_headquarters6']->value, ENT_QUOTES, 'UTF-8', true);?>
+
+                    <?php }?>
+                </div>
+                <ul class="contact">
+                <li>
+                    <?php if ($_smarty_tpl->tpl_vars['blockcontactinfos_phone']->value!='') {?>
+                    <?php echo htmlspecialchars($_smarty_tpl->tpl_vars['blockcontactinfos_phone']->value, ENT_QUOTES, 'UTF-8', true);?>
+
+                    <?php }?>
+                </li>
+                <li>
+                    <?php if ($_smarty_tpl->tpl_vars['blockcontactinfos_phone2']->value!='') {?>
+                        <?php echo htmlspecialchars($_smarty_tpl->tpl_vars['blockcontactinfos_phone2']->value, ENT_QUOTES, 'UTF-8', true);?>
+
+                    <?php }?>
+                </li>
+                <li>
+                    <?php if ($_smarty_tpl->tpl_vars['blockcontactinfos_phone3']->value!='') {?>
+                        <?php echo htmlspecialchars($_smarty_tpl->tpl_vars['blockcontactinfos_phone3']->value, ENT_QUOTES, 'UTF-8', true);?>
+
+                    <?php }?>
+                </li>
+                <li><a href="mailto:stalker@ukr.net">
+                    <?php if ($_smarty_tpl->tpl_vars['blockcontactinfos_email']->value!='') {?>
+                    <?php echo smarty_function_mailto(array('address'=>htmlspecialchars($_smarty_tpl->tpl_vars['blockcontactinfos_email']->value, ENT_QUOTES, 'UTF-8', true),'encode'=>"hex"),$_smarty_tpl);?>
+
+                    <?php }?>
+                    </a>
+                </li>
+            </ul>
+            </div>
+        </div>
+<!--
+        <div class="col-md-6">
             <form class="forms form_rus">
                 <div class="col-md-6 first-part-of-form">
                     <input class="name" type="text" name="name" placeholder="Имя" required>
@@ -190,6 +220,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
                 </div>
             </form>
         </div>
+-->
     </div>
 </footer>
 <script>

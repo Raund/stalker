@@ -15,28 +15,12 @@
                     {$blockcontactinfos_headquarters|escape:'html':'UTF-8'}
                     {/if}
                 </div>
-                <div class="adr2_rus">
-                    {if $blockcontactinfos_company2 != ''}
-                        {$blockcontactinfos_company2|escape:'html':'UTF-8'}{if $blockcontactinfos_address2 != ''}, {$blockcontactinfos_address2|escape:'html':'UTF-8'}{/if}
-                    {/if}
-                    {if $blockcontactinfos_headquarters2 != ''}
-                        {$blockcontactinfos_headquarters2|escape:'html':'UTF-8'}
-                    {/if}
-                </div>
                 <div class="adr1_ukr">
                     {if $blockcontactinfos_company3 != ''}
                         {$blockcontactinfos_company3|escape:'html':'UTF-8'}{if $blockcontactinfos_address3 != ''}, {$blockcontactinfos_address3|escape:'html':'UTF-8'}{/if}
                     {/if}
                     {if $blockcontactinfos_headquarters3 != ''}</br>
                         {$blockcontactinfos_headquarters3|escape:'html':'UTF-8'}
-                    {/if}
-                </div>
-                <div class="adr2_ukr">
-                    {if $blockcontactinfos_company4 != ''}
-                        {$blockcontactinfos_company4|escape:'html':'UTF-8'}{if $blockcontactinfos_address4 != ''}, {$blockcontactinfos_address4|escape:'html':'UTF-8'}{/if}
-                    {/if}
-                    {if $blockcontactinfos_headquarters4 != ''}</br>
-                        {$blockcontactinfos_headquarters4|escape:'html':'UTF-8'}
                     {/if}
                 </div>
                 <div class="adr1_en">
@@ -47,18 +31,7 @@
                         {$blockcontactinfos_headquarters5|escape:'html':'UTF-8'}
                     {/if}
                 </div>
-                <div class="adr2_en">
-                    {if $blockcontactinfos_company6 != ''}
-                        {$blockcontactinfos_company6|escape:'html':'UTF-8'}{if $blockcontactinfos_address6 != ''}, {$blockcontactinfos_address6|escape:'html':'UTF-8'}{/if}
-                    {/if}
-                    {if $blockcontactinfos_headquarters6 != ''}</br>
-                        {$blockcontactinfos_headquarters6|escape:'html':'UTF-8'}
-                    {/if}
-                </div>
-            </div>
-        </div>
-        <div class="col-md-3">
-            <ul class="contact">
+                <ul class="contact">
                 <li>
                     {if $blockcontactinfos_phone != ''}
                     {$blockcontactinfos_phone|escape:'html':'UTF-8'}
@@ -81,8 +54,61 @@
                     </a>
                 </li>
             </ul>
+            </div>
         </div>
-              <div class="col-md-6">
+        <div class="col-md-3">
+            <div class="address">
+                <div class="adr2_rus">
+                    {if $blockcontactinfos_company2 != ''}
+                        {$blockcontactinfos_company2|escape:'html':'UTF-8'}{if $blockcontactinfos_address2 != ''}, {$blockcontactinfos_address2|escape:'html':'UTF-8'}{/if}
+                    {/if}
+                    {if $blockcontactinfos_headquarters2 != ''}
+                        {$blockcontactinfos_headquarters2|escape:'html':'UTF-8'}
+                    {/if}
+                </div>
+                <div class="adr2_ukr">
+                    {if $blockcontactinfos_company4 != ''}
+                        {$blockcontactinfos_company4|escape:'html':'UTF-8'}{if $blockcontactinfos_address4 != ''}, {$blockcontactinfos_address4|escape:'html':'UTF-8'}{/if}
+                    {/if}
+                    {if $blockcontactinfos_headquarters4 != ''}</br>
+                        {$blockcontactinfos_headquarters4|escape:'html':'UTF-8'}
+                    {/if}
+                </div>
+                <div class="adr2_en">
+                    {if $blockcontactinfos_company6 != ''}
+                        {$blockcontactinfos_company6|escape:'html':'UTF-8'}{if $blockcontactinfos_address6 != ''}, {$blockcontactinfos_address6|escape:'html':'UTF-8'}{/if}
+                    {/if}
+                    {if $blockcontactinfos_headquarters6 != ''}</br>
+                        {$blockcontactinfos_headquarters6|escape:'html':'UTF-8'}
+                    {/if}
+                </div>
+                <ul class="contact">
+                <li>
+                    {if $blockcontactinfos_phone != ''}
+                    {$blockcontactinfos_phone|escape:'html':'UTF-8'}
+                    {/if}
+                </li>
+                <li>
+                    {if $blockcontactinfos_phone2 != ''}
+                        {$blockcontactinfos_phone2|escape:'html':'UTF-8'}
+                    {/if}
+                </li>
+                <li>
+                    {if $blockcontactinfos_phone3 != ''}
+                        {$blockcontactinfos_phone3|escape:'html':'UTF-8'}
+                    {/if}
+                </li>
+                <li><a href="mailto:stalker@ukr.net">
+                    {if $blockcontactinfos_email != ''}
+                    {mailto address=$blockcontactinfos_email|escape:'html':'UTF-8' encode="hex"}
+                    {/if}
+                    </a>
+                </li>
+            </ul>
+            </div>
+        </div>
+<!--
+        <div class="col-md-6">
             <form class="forms form_rus">
                 <div class="col-md-6 first-part-of-form">
                     <input class="name" type="text" name="name" placeholder="Имя" required>
@@ -120,6 +146,7 @@
                 </div>
             </form>
         </div>
+-->
     </div>
 </footer>
 <script>

@@ -9686,7 +9686,7 @@ span.view_scroll_spacer {
   width: 100%;
   border-top: 1px solid #333;
   background-color: #000;
-  color: #333;
+  color: #585858;
   font-size: 14px;
   line-height: 16px;
   text-align: center;
@@ -9738,4 +9738,8 @@ span.view_scroll_spacer {
 .categories .product-item-more:hover {
   background-color: #666;
   color: #FFF; }
+
+.main-footer .contact{
+  padding-left: 0;
+}
 /*END REDESIGN */
