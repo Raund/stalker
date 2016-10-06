@@ -48,6 +48,12 @@
                     <span>Ред. расположения магазина</span>
                 </a>
             </li>
+			<li class="maintab">
+				<a href='{$base_dir}/admin883xrc4gv/index.php?controller=AdminModules&token=1aa435cfdb972afe19c9f7d1369c7d0d&configure=blocksocial&tab_module=front_office_features&module_name=blocksocial' class="title" >
+					<i class="icon-AdminParentCustomer"></i>
+					<span>Ред. соц. сетей</span>
+				</a>
+			</li>
 		</ul>
 		<span class="menu-collapse">
 			<i class="icon-align-justify icon-rotate-90"></i>

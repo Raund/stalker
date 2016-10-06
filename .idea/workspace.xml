@@ -1,54 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="44dd30e0-f8cb-40e0-ab5b-55d93e6b4444" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cache/smarty/cache/blockcategories/1/1/1/1/216/1/df/7a/f1/df7af17b0892da1c1c3ccb1687133fb267d42c4d.blockcategories_footer.tpl.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cache/smarty/cache/blocktopmenu/1/1/1/1/216/index/12/9f/76/129f7619018cd44c68df3c802a9cf70c5421f1ae.blocktopmenu.tpl.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cache/smarty/cache/homefeatured/1/1/1/1/216/c3/05/ec/c305ecd3eb284dee669507c94af06af10f54d4ea.homefeatured.tpl.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cache/smarty/cache/homefeatured_tab/1/1/1/1/216/57/8f/20/578f20de899cb69cfed5a115c63d70f6af2d36fc.tab.tpl.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cache/smarty/cache/homeslider/1/1/1/1/216/77/cf/2d/77cf2d8b971166e192f8b12053e0f1cb344f0152.homeslider.tpl.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cache/smarty/cache/smartbloghomelatestnews/1/1/1/1/216/bb/31/45/bb3145e6d0b219af572e28a3f50f22b4c3ba8e93.smartblog_latest_news.tpl.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cache/smarty/compile/51/5f/cd/515fcdc3c7cc9a039fef8ea5a74d8a0256e33e8f.file.index.tpl.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cache/smarty/compile/57/8f/20/578f20de899cb69cfed5a115c63d70f6af2d36fc.file.tab.tpl.cache.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cache/smarty/compile/77/cf/2d/77cf2d8b971166e192f8b12053e0f1cb344f0152.file.homeslider.tpl.cache.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cache/smarty/compile/ad/e9/92/ade992d43df28838184b4453e8ef71abfe718fd7.file.blockhomecategorys.tpl.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cache/smarty/compile/bb/31/45/bb3145e6d0b219af572e28a3f50f22b4c3ba8e93.file.smartblog_latest_news.tpl.cache.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cache/smarty/compile/c3/05/ec/c305ecd3eb284dee669507c94af06af10f54d4ea.file.homefeatured.tpl.cache.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cache/smarty/compile/fc/1b/da/fc1bdad5b0a42db800190dafd6b5ffc6fc193c77.file.header.tpl.php" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cache/smarty/cache/blockcontact/1/1/1/1/216/11/0a/f4/110af4aa6a07611efcccd053747f3869cae3b3c9.nav.tpl.php" afterPath="$PROJECT_DIR$/cache/smarty/cache/blockcontact/1/1/1/1/216/11/0a/f4/110af4aa6a07611efcccd053747f3869cae3b3c9.nav.tpl.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cache/smarty/cache/blockcontactinfos/1/1/1/1/216/cc/f1/f6/ccf1f6c6a5f4b78c0957f4ae6c253e632390987b.blockcontactinfos.tpl.php" afterPath="$PROJECT_DIR$/cache/smarty/cache/blockcontactinfos/1/1/1/1/216/cc/f1/f6/ccf1f6c6a5f4b78c0957f4ae6c253e632390987b.blockcontactinfos.tpl.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cache/smarty/cache/blocksearch_top/1/1/1/1/216/d2/ee/0a/d2ee0a6ba0bcab15e498665d0343060289ecfc5b.blocksearch-top.tpl.php" afterPath="$PROJECT_DIR$/cache/smarty/cache/blocksearch_top/1/1/1/1/216/d2/ee/0a/d2ee0a6ba0bcab15e498665d0343060289ecfc5b.blocksearch-top.tpl.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cache/smarty/compile/0d/8a/be/0d8abeac9fe3e277636dd0f7702cca113d077e28.file.header.tpl.php" afterPath="$PROJECT_DIR$/cache/smarty/compile/0d/8a/be/0d8abeac9fe3e277636dd0f7702cca113d077e28.file.header.tpl.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cache/smarty/compile/11/0a/f4/110af4aa6a07611efcccd053747f3869cae3b3c9.file.nav.tpl.cache.php" afterPath="$PROJECT_DIR$/cache/smarty/compile/11/0a/f4/110af4aa6a07611efcccd053747f3869cae3b3c9.file.nav.tpl.cache.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cache/smarty/compile/12/9f/76/129f7619018cd44c68df3c802a9cf70c5421f1ae.file.blocktopmenu.tpl.cache.php" afterPath="$PROJECT_DIR$/cache/smarty/compile/12/9f/76/129f7619018cd44c68df3c802a9cf70c5421f1ae.file.blocktopmenu.tpl.cache.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cache/smarty/compile/63/28/db/6328dbb8ffea46d492d97ca47214351706a82540.file.footer.tpl.php" afterPath="$PROJECT_DIR$/cache/smarty/compile/63/28/db/6328dbb8ffea46d492d97ca47214351706a82540.file.footer.tpl.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cache/smarty/compile/63/dc/76/63dc760f4344ed28135ca32f18c7d1e9a04f6a13.file.javascript.tpl.php" afterPath="$PROJECT_DIR$/cache/smarty/compile/63/dc/76/63dc760f4344ed28135ca32f18c7d1e9a04f6a13.file.javascript.tpl.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cache/smarty/compile/73/7f/65/737f65c64f9dac3c29b941c7e69b29301675bcfd.file.blockuserinfo.tpl.php" afterPath="$PROJECT_DIR$/cache/smarty/compile/73/7f/65/737f65c64f9dac3c29b941c7e69b29301675bcfd.file.blockuserinfo.tpl.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cache/smarty/compile/a1/ad/07/a1ad07effe4ac8c30b2835e52151da06057f59c3.file.category-tree-branch.tpl.cache.php" afterPath="$PROJECT_DIR$/cache/smarty/compile/a1/ad/07/a1ad07effe4ac8c30b2835e52151da06057f59c3.file.category-tree-branch.tpl.cache.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cache/smarty/compile/ad/46/ff/ad46ff34fe05712f42e28a2df8a646b437ed98e3.file.global.tpl.php" afterPath="$PROJECT_DIR$/cache/smarty/compile/ad/46/ff/ad46ff34fe05712f42e28a2df8a646b437ed98e3.file.global.tpl.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cache/smarty/compile/cc/f1/f6/ccf1f6c6a5f4b78c0957f4ae6c253e632390987b.file.blockcontactinfos.tpl.cache.php" afterPath="$PROJECT_DIR$/cache/smarty/compile/cc/f1/f6/ccf1f6c6a5f4b78c0957f4ae6c253e632390987b.file.blockcontactinfos.tpl.cache.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cache/smarty/compile/d2/ee/0a/d2ee0a6ba0bcab15e498665d0343060289ecfc5b.file.blocksearch-top.tpl.cache.php" afterPath="$PROJECT_DIR$/cache/smarty/compile/d2/ee/0a/d2ee0a6ba0bcab15e498665d0343060289ecfc5b.file.blocksearch-top.tpl.cache.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cache/smarty/compile/df/7a/f1/df7af17b0892da1c1c3ccb1687133fb267d42c4d.file.blockcategories_footer.tpl.cache.php" afterPath="$PROJECT_DIR$/cache/smarty/compile/df/7a/f1/df7af17b0892da1c1c3ccb1687133fb267d42c4d.file.blockcategories_footer.tpl.cache.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cache/smarty/compile/ed/b1/50/edb150eef74c20bafe66b87550b726b0e7a64bb7.file.blocklanguages.tpl.php" afterPath="$PROJECT_DIR$/cache/smarty/compile/ed/b1/50/edb150eef74c20bafe66b87550b726b0e7a64bb7.file.blocklanguages.tpl.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cache/smarty/compile/f4/1f/b3/f41fb39fbdcfaf68285a75654658d7477b97ebea.file.hook.tpl.php" afterPath="$PROJECT_DIR$/cache/smarty/compile/f4/1f/b3/f41fb39fbdcfaf68285a75654658d7477b97ebea.file.hook.tpl.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cache/smarty/compile/f6/62/3c/f6623cf8edc8efcb41585d57c7ca0fb2067dda4c.file.layout.tpl.php" afterPath="$PROJECT_DIR$/cache/smarty/compile/f6/62/3c/f6623cf8edc8efcb41585d57c7ca0fb2067dda4c.file.layout.tpl.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/xml/modules_native_addons.xml" afterPath="$PROJECT_DIR$/config/xml/modules_native_addons.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/xml/must_have_modules_list.xml" afterPath="$PROJECT_DIR$/config/xml/must_have_modules_list.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/blockcart/config_ru.xml" afterPath="$PROJECT_DIR$/modules/blockcart/config_ru.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/blockpermanentlinks/config_ru.xml" afterPath="$PROJECT_DIR$/modules/blockpermanentlinks/config_ru.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/blockstore/config_ru.xml" afterPath="$PROJECT_DIR$/modules/blockstore/config_ru.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/blocktags/config_ru.xml" afterPath="$PROJECT_DIR$/modules/blocktags/config_ru.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/blockuserinfo/config_ru.xml" afterPath="$PROJECT_DIR$/modules/blockuserinfo/config_ru.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/cheque/config_ru.xml" afterPath="$PROJECT_DIR$/modules/cheque/config_ru.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/dashactivity/config_ru.xml" afterPath="$PROJECT_DIR$/modules/dashactivity/config_ru.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/dashgoals/config_ru.xml" afterPath="$PROJECT_DIR$/modules/dashgoals/config_ru.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/statsbestcategories/config_ru.xml" afterPath="$PROJECT_DIR$/modules/statsbestcategories/config_ru.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/statsbestcustomers/config_ru.xml" afterPath="$PROJECT_DIR$/modules/statsbestcustomers/config_ru.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/statsregistrations/config_ru.xml" afterPath="$PROJECT_DIR$/modules/statsregistrations/config_ru.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/themeconfigurator/config_ru.xml" afterPath="$PROJECT_DIR$/modules/themeconfigurator/config_ru.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/themes/stalker/css/global.css" afterPath="$PROJECT_DIR$/themes/stalker/css/global.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/themes/stalker/modules/blockcontactinfos/blockcontactinfos.tpl" afterPath="$PROJECT_DIR$/themes/stalker/modules/blockcontactinfos/blockcontactinfos.tpl" />
-    </list>
+    <list default="true" id="44dd30e0-f8cb-40e0-ab5b-55d93e6b4444" name="Default" comment="" />
     <ignored path="stalker.loc.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path=".idea/dataSources.local.xml" />
@@ -68,14 +21,38 @@
     <favorites_list name="stalker.loc" />
   </component>
   <component name="FileEditorManager">
+<<<<<<< HEAD
+    <leaf>
+      <file leaf-file-name="product-list.tpl" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/themes/stalker/product-list.tpl">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="149" column="60" selection-start-line="149" selection-start-column="60" selection-end-line="149" selection-end-column="60" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="category.tpl" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/themes/stalker/category.tpl">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.57602865">
+              <caret line="57" column="0" selection-start-line="57" selection-start-column="0" selection-end-line="57" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+=======
     <splitter split-orientation="vertical" split-proportion="0.6897507">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
           <file leaf-file-name="product-list.tpl" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/themes/stalker/product-list.tpl">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="51">
-                  <caret line="3" column="29" selection-start-line="3" selection-start-column="29" selection-end-line="3" selection-end-column="29" />
+                <state relative-caret-position="272">
+                  <caret line="31" column="29" selection-start-line="31" selection-start-column="29" selection-end-line="31" selection-end-column="29" />
                   <folding />
                 </state>
               </provider>
@@ -84,12 +61,12 @@
         </leaf>
       </split-first>
       <split-second>
-        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+        <leaf>
           <file leaf-file-name="product-list.tpl" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/themes/stalker/product-list.tpl">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="578">
-                  <caret line="34" column="60" selection-start-line="34" selection-start-column="60" selection-end-line="34" selection-end-column="60" />
+                <state relative-caret-position="102">
+                  <caret line="149" column="60" selection-start-line="149" selection-start-column="60" selection-end-line="149" selection-end-column="60" />
                   <folding />
                 </state>
               </provider>
@@ -98,8 +75,8 @@
           <file leaf-file-name="global.css" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/themes/stalker/css/global.css">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="136">
-                  <caret line="9742" column="16" selection-start-line="9742" selection-start-column="16" selection-end-line="9742" selection-end-column="16" />
+                <state relative-caret-position="246">
+                  <caret line="9730" column="16" selection-start-line="9730" selection-start-column="16" selection-end-line="9730" selection-end-column="16" />
                   <folding />
                 </state>
               </provider>
@@ -108,17 +85,15 @@
         </leaf>
       </split-second>
     </splitter>
-  </component>
-  <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+>>>>>>> b048ccf00fbed36503543d87460fd100ffb159ba
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/themes/stalker/category.tpl" />
         <option value="$PROJECT_DIR$/.gitignore" />
-        <option value="$PROJECT_DIR$/themes/stalker/product-list.tpl" />
         <option value="$PROJECT_DIR$/themes/stalker/css/global.css" />
+        <option value="$PROJECT_DIR$/themes/stalker/product-list.tpl" />
       </list>
     </option>
   </component>
@@ -135,8 +110,13 @@
   <component name="ProjectFrameBounds">
     <option name="x" value="-8" />
     <option name="y" value="-8" />
+<<<<<<< HEAD
+    <option name="width" value="1380" />
+    <option name="height" value="744" />
+=======
     <option name="width" value="1382" />
     <option name="height" value="784" />
+>>>>>>> b048ccf00fbed36503543d87460fd100ffb159ba
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -163,7 +143,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
+<<<<<<< HEAD
+=======
       <pane id="ColorIdeProjectViewPane">
         <subPane>
           <PATH>
@@ -238,6 +219,8 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
+>>>>>>> b048ccf00fbed36503543d87460fd100ffb159ba
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -290,11 +273,12 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
       <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../premiumclub.loc" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="js-jscs-nodeInterpreter" value="C:\Program Files\nodejs\node.exe" />
   </component>
@@ -317,11 +301,18 @@
       <method />
     </configuration>
     <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+<<<<<<< HEAD
+=======
       <node-interpreter>project</node-interpreter>
+>>>>>>> b048ccf00fbed36503543d87460fd100ffb159ba
       <node-options />
       <gulpfile />
       <tasks />
       <arguments />
+<<<<<<< HEAD
+      <pass-parent-envs>true</pass-parent-envs>
+=======
+>>>>>>> b048ccf00fbed36503543d87460fd100ffb159ba
       <envs />
       <method />
     </configuration>
@@ -347,35 +338,58 @@
       <option name="presentableId" value="Default" />
       <updated>1475487740661</updated>
       <workItem from="1475499771403" duration="2412000" />
-      <workItem from="1475573430590" duration="31000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2443000" />
+    <option name="totallyTimeSpent" value="2412000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="784" extended-state="6" />
-    <editor active="false" />
+<<<<<<< HEAD
+    <frame x="-8" y="-8" width="1380" height="744" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2489019" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2530303" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32952693" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+=======
+    <frame x="-8" y="-8" width="1382" height="784" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2489019" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32952693" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+>>>>>>> b048ccf00fbed36503543d87460fd100ffb159ba
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -396,15 +410,16 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/themes/stalker/product-list.tpl">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2533">
+<<<<<<< HEAD
+        <state vertical-scroll-proportion="0.0">
           <caret line="149" column="60" selection-start-line="149" selection-start-column="60" selection-end-line="149" selection-end-column="60" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/themes/stalker/css/global.css">
+    <entry file="file://$PROJECT_DIR$/themes/stalker/category.tpl">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
+        <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
@@ -412,7 +427,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/themes/stalker/product-list.tpl">
       <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+=======
         <state relative-caret-position="2533">
+>>>>>>> b048ccf00fbed36503543d87460fd100ffb159ba
           <caret line="149" column="60" selection-start-line="149" selection-start-column="60" selection-end-line="149" selection-end-column="60" />
           <folding />
         </state>
@@ -420,8 +438,13 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/themes/stalker/category.tpl">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
+        <state vertical-scroll-proportion="0.57602865">
+          <caret line="57" column="0" selection-start-line="57" selection-start-column="0" selection-end-line="57" selection-end-column="0" />
+=======
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -429,6 +452,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="25">
           <caret line="34" column="18" selection-start-line="34" selection-start-column="18" selection-end-line="34" selection-end-column="18" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -442,16 +466,17 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/themes/stalker/css/global.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="9742" column="16" selection-start-line="9742" selection-start-column="16" selection-end-line="9742" selection-end-column="16" />
+        <state relative-caret-position="246">
+          <caret line="9730" column="16" selection-start-line="9730" selection-start-column="16" selection-end-line="9730" selection-end-column="16" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/themes/stalker/product-list.tpl">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="578">
-          <caret line="34" column="60" selection-start-line="34" selection-start-column="60" selection-end-line="34" selection-end-column="60" />
+        <state relative-caret-position="272">
+          <caret line="31" column="29" selection-start-line="31" selection-start-column="29" selection-end-line="31" selection-end-column="29" />
+>>>>>>> b048ccf00fbed36503543d87460fd100ffb159ba
           <folding />
         </state>
       </provider>

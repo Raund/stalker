@@ -28,6 +28,14 @@ class Blockcontactinfos extends Module
         'BLOCKCONTACTINFOS_PHONE2',
         'BLOCKCONTACTINFOS_PHONE3',
 		'BLOCKCONTACTINFOS_EMAIL',
+        'BLOCKCONTACTINFOS_EMAIL2',
+        'BLOCKCONTACTINFOS_PHONE4',
+        'BLOCKCONTACTINFOS_PHONE5',
+        'BLOCKCONTACTINFOS_PHONE6',
+        'BLOCKCONTACTINFOS_EMAIL3',
+        'BLOCKCONTACTINFOS_EMAIL4',
+        'BLOCKCONTACTINFOS_EMAIL5',
+        'BLOCKCONTACTINFOS_EMAIL6'
 	);
 
 	public function __construct()
@@ -69,6 +77,14 @@ class Blockcontactinfos extends Module
         Configuration::updateValue('BLOCKCONTACTINFOS_PHONE2', Configuration::get('PS_SHOP_PHONE2'));
         Configuration::updateValue('BLOCKCONTACTINFOS_PHONE3', Configuration::get('PS_SHOP_PHONE3'));
 		Configuration::updateValue('BLOCKCONTACTINFOS_EMAIL', Configuration::get('PS_SHOP_EMAIL'));
+        Configuration::updateValue('BLOCKCONTACTINFOS_EMAIL2', Configuration::get('PS_SHOP_EMAIL2'));
+        Configuration::updateValue('BLOCKCONTACTINFOS_PHONE4', Configuration::get('PS_SHOP_PHONE4'));
+        Configuration::updateValue('BLOCKCONTACTINFOS_PHONE5', Configuration::get('PS_SHOP_PHONE5'));
+        Configuration::updateValue('BLOCKCONTACTINFOS_PHONE6', Configuration::get('PS_SHOP_PHONE6'));
+        Configuration::updateValue('BLOCKCONTACTINFOS_EMAIL3', Configuration::get('PS_SHOP_EMAIL3'));
+        Configuration::updateValue('BLOCKCONTACTINFOS_EMAIL4', Configuration::get('PS_SHOP_EMAIL4'));
+        Configuration::updateValue('BLOCKCONTACTINFOS_EMAIL5', Configuration::get('PS_SHOP_EMAIL5'));
+        Configuration::updateValue('BLOCKCONTACTINFOS_EMAIL6', Configuration::get('PS_SHOP_EMAIL6'));
 		$this->_clearCache('blockcontactinfos.tpl');
 		return (parent::install() && $this->registerHook('header') && $this->registerHook('footer'));
 	}
@@ -126,11 +142,11 @@ class Blockcontactinfos extends Module
 						'label' => $this->l('Улица 1 (рус)'),
 						'name' => 'BLOCKCONTACTINFOS_ADDRESS',
 					),
-                    array(
+                    /*array(
                         'type' => 'textarea',
                         'label' => $this->l('Корпус 1/ офис 1 (рус)'),
                         'name' => 'BLOCKCONTACTINFOS_HEADQUARTERS',
-                    ),
+                    ),*/
                     array(
                         'type' => 'text',
                         'label' => $this->l('Город 2 (рус)'),
@@ -141,11 +157,11 @@ class Blockcontactinfos extends Module
                         'label' => $this->l('Улица 2 (рус)'),
                         'name' => 'BLOCKCONTACTINFOS_ADDRESS2',
                     ),
-                    array(
+                   /* array(
                         'type' => 'textarea',
                         'label' => $this->l('Корпус 2/ офис 2 (рус)'),
                         'name' => 'BLOCKCONTACTINFOS_HEADQUARTERS2',
-                    ),
+                    ),*/
                     array(
                         'type' => 'text',
                         'label' => $this->l('Місто 1 (укр)'),
@@ -156,11 +172,11 @@ class Blockcontactinfos extends Module
                         'label' => $this->l('Вулиця 1 (укр)'),
                         'name' => 'BLOCKCONTACTINFOS_ADDRESS3',
                     ),
-                    array(
+                    /*array(
                         'type' => 'textarea',
                         'label' => $this->l('Корпус 1/ офіс 1 (укр)'),
                         'name' => 'BLOCKCONTACTINFOS_HEADQUARTERS3',
-                    ),
+                    ),*/
                     array(
                         'type' => 'text',
                         'label' => $this->l('Місто 2 (укр)'),
@@ -171,11 +187,11 @@ class Blockcontactinfos extends Module
                         'label' => $this->l('Вулиця 2 (укр)'),
                         'name' => 'BLOCKCONTACTINFOS_ADDRESS4',
                     ),
-                    array(
+                    /*array(
                         'type' => 'textarea',
                         'label' => $this->l('Корпус 2/ офіс 2 (укр)'),
                         'name' => 'BLOCKCONTACTINFOS_HEADQUARTERS4',
-                    ),
+                    ),*/
                     array(
                         'type' => 'text',
                         'label' => $this->l('City 1 (en)'),
@@ -186,11 +202,11 @@ class Blockcontactinfos extends Module
                         'label' => $this->l('Street 1 (en)'),
                         'name' => 'BLOCKCONTACTINFOS_ADDRESS5',
                     ),
-                    array(
+                    /*array(
                         'type' => 'textarea',
                         'label' => $this->l('Office 1 (en)'),
                         'name' => 'BLOCKCONTACTINFOS_HEADQUARTERS5',
-                    ),
+                    ),*/
                     array(
                         'type' => 'text',
                         'label' => $this->l('City 2 (en)'),
@@ -201,31 +217,71 @@ class Blockcontactinfos extends Module
                         'label' => $this->l('Street 2 (en)'),
                         'name' => 'BLOCKCONTACTINFOS_ADDRESS6',
                     ),
-                    array(
+                    /*array(
                         'type' => 'textarea',
                         'label' => $this->l('Office 2 (en)'),
                         'name' => 'BLOCKCONTACTINFOS_HEADQUARTERS6',
-                    ),
+                    ),*/
 					array(
 						'type' => 'text',
-						'label' => $this->l('Phone number'),
+						'label' => $this->l('Номер телефона 1 для города 1'),
 						'name' => 'BLOCKCONTACTINFOS_PHONE',
 					),
                     array(
                         'type' => 'text',
-                        'label' => $this->l('Номер телефона 2'),
+                        'label' => $this->l('Номер телефона 2 для города 1'),
                         'name' => 'BLOCKCONTACTINFOS_PHONE2',
                     ),
                     array(
                         'type' => 'text',
-                        'label' => $this->l('Номер телефона 3'),
+                        'label' => $this->l('Номер телефона 3 для города 1'),
                         'name' => 'BLOCKCONTACTINFOS_PHONE3',
                     ),
 					array(
 						'type' => 'text',
-						'label' => $this->l('Email'),
+						'label' => $this->l('Email 1 для для города 1'),
 						'name' => 'BLOCKCONTACTINFOS_EMAIL',
 					),
+                    array(
+                        'type' => 'text',
+                        'label' => $this->l('Email 2 для для города 1'),
+                        'name' => 'BLOCKCONTACTINFOS_EMAIL2',
+                    ),
+                    array(
+                        'type' => 'text',
+                        'label' => $this->l('Номер телефона 1 для города 2'),
+                        'name' => 'BLOCKCONTACTINFOS_PHONE4',
+                    ),
+                    array(
+                        'type' => 'text',
+                        'label' => $this->l('Номер телефона 2 для города 2'),
+                        'name' => 'BLOCKCONTACTINFOS_PHONE5',
+                    ),
+                    array(
+                        'type' => 'text',
+                        'label' => $this->l('Номер телефона 3 для города 2'),
+                        'name' => 'BLOCKCONTACTINFOS_PHONE6',
+                    ),
+                    array(
+                        'type' => 'text',
+                        'label' => $this->l('Email 1 для для города 2'),
+                        'name' => 'BLOCKCONTACTINFOS_EMAIL3',
+                    ),
+                    array(
+                        'type' => 'text',
+                        'label' => $this->l('Email 2 для для города 2'),
+                        'name' => 'BLOCKCONTACTINFOS_EMAIL4',
+                    ),
+                    array(
+                        'type' => 'text',
+                        'label' => $this->l('Карта доезда для города 1'),
+                        'name' => 'BLOCKCONTACTINFOS_EMAIL5',
+                    ),
+                    array(
+                        'type' => 'text',
+                        'label' => $this->l('Карта доезда для города 2'),
+                        'name' => 'BLOCKCONTACTINFOS_EMAIL6',
+                    ),
 				),
 				'submit' => array(
 					'title' => $this->l('Save')
