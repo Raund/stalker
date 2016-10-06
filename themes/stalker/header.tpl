@@ -18,7 +18,8 @@
 		<meta name="viewport" content="width=device-width, minimum-scale=0.25, maximum-scale=1.6, initial-scale=1.0" />
 		<meta name="apple-mobile-web-app-capable" content="yes" />
 		<link rel="icon" type="image/vnd.microsoft.icon" href="{$favicon_url}?{$img_update_time}" />
-		<link rel="shortcut icon" type="image/x-icon" href="{$favicon_url}?{$img_update_time}" />
+
+		<link rel="stylesheet" href="/unitegallery/dist/css/unite-gallery.css">
 
 		{if isset($css_files)}
 			{foreach from=$css_files key=css_uri item=media}
@@ -43,6 +44,9 @@
         {literal}<script type="text/javascript" src="/callme/js/callme.min.js"></script>{/literal}
         {literal}<script type="text/javascript" src="/owl.carousel/owl.carousel.min.js"></script>{/literal}
         {literal}<script type="text/javascript" src="/lightgallery/lightgallery.min.js"></script>{/literal}
+        {literal}<script type="text/javascript" src="/unitegallery/dist/themes/grid/ug-theme-grid.js"></script>{/literal}
+        {literal}<script type="text/javascript" src="/unitegallery/dist/themes/default/ug-theme-default.js"></script>{/literal}
+        {literal}<script type="text/javascript" src="/unitegallery/dist/js/unitegallery.min.js"></script>{/literal}
 		<!--[if IE 8]>
 		<script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
 		<script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>

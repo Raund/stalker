@@ -8748,6 +8748,7 @@ ul {
   padding-top: 70px;
   padding-left: 30px;
   padding-right: 30px;
+  padding-bottom: 30px;
   background-color: #FFF;
   text-align: center; }
   .categories {
@@ -8756,6 +8757,7 @@ ul {
     padding-top: 70px;
     padding-left: 45px;
     padding-right: 45px;
+    padding-bottom: 30px;
     background-color: #FFF;
     text-align: center; }
   .categories h1 {
@@ -9741,5 +9743,11 @@ span.view_scroll_spacer {
 
 .main-footer .contact{
   padding-left: 0;
+}
+
+.ug-button-fullscreen.ug-skin-default {
+  background-image: none;
+  width: 100%;
+  height: 100%;
 }
 /*END REDESIGN */
