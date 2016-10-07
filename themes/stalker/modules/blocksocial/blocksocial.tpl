@@ -16,9 +16,9 @@
 </script>
 <section id="social_block" class="col-md-4 col-sm-4 pull-right">
     <div class="clearfix">
-        <a href="#" class="call_rus pull-right">Задайте нам вопрос</a>
-        <a href="#" class="call_ukr pull-right">Задайте нам питання</a>
-        <a href="#" class="call_en pull-right">Ask us a question</a>
+        <a href="#" class="callme_viewform call_rus pull-right">Обратный звонок</a>
+        <a href="#" class="callme_viewform call_ukr pull-right">Зворотній зв'язок</a>
+        <a href="#" class="callme_viewform call_en pull-right">Call back</a>
     </div>
 	<div class="social-header-rus clearfix">
         <span>Подписывайтесь</span>

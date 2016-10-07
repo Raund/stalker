@@ -59,7 +59,9 @@
                         </li>
                         <li>
                             {if $blockcontactinfos_email5 != ''}
-                                <a href="#" class="more">Карта доезда<i class="fa fa-angle-down"></i></a>
+                                <a href="#" class="more more_rus">Карта доезда<i class="fa fa-angle-down"></i></a>
+                                <a href="#" class="more more_ukr">Карта доїзду<i class="fa fa-angle-down"></i></a>
+                                <a href="#" class="more more_en">Map<i class="fa fa-angle-down"></i></a>
                                 <div class="spoiler-body" style="display: none;"><iframe src="{$blockcontactinfos_email5}" width="400" height="300" frameborder="0" style="border:0" allowfullscreen></iframe></div>
                             {/if}
                         </li>
@@ -117,7 +119,9 @@
                         </li>
                         <li>
                             {if $blockcontactinfos_email5 != ''}
-                                <a href="#" class="more">Карта доезда<i class="fa fa-angle-down"></i></a>
+                                <a href="#" class="more more_rus">Карта доезда<i class="fa fa-angle-down"></i></a>
+                                <a href="#" class="more more_ukr">Карта доїзду<i class="fa fa-angle-down"></i></a>
+                                <a href="#" class="more more_en">Map<i class="fa fa-angle-down"></i></a>
                                 <div class="spoiler-body" style="display: none;"><iframe src="{$blockcontactinfos_email5}" width="400" height="300" frameborder="0" style="border:0" allowfullscreen></iframe></div>
                             {/if}
                         </li>
@@ -175,7 +179,9 @@
                         </li>
                         <li>
                             {if $blockcontactinfos_email5 != ''}
-                                <a href="#" class="more">Карта доезда<i class="fa fa-angle-down"></i></a>
+                                <a href="#" class="more more_rus">Карта доезда<i class="fa fa-angle-down"></i></a>
+                                <a href="#" class="more more_ukr">Карта доїзду<i class="fa fa-angle-down"></i></a>
+                                <a href="#" class="more more_en">Map<i class="fa fa-angle-down"></i></a>
                                 <div class="spoiler-body" style="display: none;"><iframe src="{$blockcontactinfos_email5}" width="400" height="300" frameborder="0" style="border:0" allowfullscreen></iframe></div>
                             {/if}
                         </li>
@@ -235,7 +241,9 @@
                         </li>
                         <li>
                             {if $blockcontactinfos_email6 != ''}
-                                <a href="#" class="more">Карта доезда<i class="fa fa-angle-down"></i></a>
+                                <a href="#" class="more more_rus">Карта доезда<i class="fa fa-angle-down"></i></a>
+                                <a href="#" class="more more_ukr">Карта доїзду<i class="fa fa-angle-down"></i></a>
+                                <a href="#" class="more more_en">Map<i class="fa fa-angle-down"></i></a>
                                 <div class="spoiler-body" style="display: none;"><iframe src="{$blockcontactinfos_email6}" width="400" height="300" frameborder="0" style="border:0" allowfullscreen></iframe></div>
                             {/if}
                         </li>
@@ -293,7 +301,9 @@
                         </li>
                         <li>
                             {if $blockcontactinfos_email5 != ''}
-                                <a href="#" class="more">Карта доезда<i class="fa fa-angle-down"></i></a>
+                                <a href="#" class="more more_rus">Карта доезда<i class="fa fa-angle-down"></i></a>
+                                <a href="#" class="more more_ukr">Карта доїзду<i class="fa fa-angle-down"></i></a>
+                                <a href="#" class="more more_en">Map<i class="fa fa-angle-down"></i></a>
                                 <div class="spoiler-body" style="display: none;"><iframe src="{$blockcontactinfos_email5}" width="400" height="300" frameborder="0" style="border:0" allowfullscreen></iframe></div>
                             {/if}
                         </li>
@@ -351,7 +361,9 @@
                         </li>
                         <li>
                             {if $blockcontactinfos_email5 != ''}
-                                <a href="#" class="more">Карта доезда<i class="fa fa-angle-down"></i></a>
+                                <a href="#" class="more more_rus">Карта доезда<i class="fa fa-angle-down"></i></a>
+                                <a href="#" class="more more_ukr">Карта доїзду<i class="fa fa-angle-down"></i></a>
+                                <a href="#" class="more more_en">Map<i class="fa fa-angle-down"></i></a>
                                 <div class="spoiler-body" style="display: none;"><iframe src="{$blockcontactinfos_email5}" width="400" height="300" frameborder="0" style="border:0" allowfullscreen></iframe></div>
                             {/if}
                         </li>
@@ -415,16 +427,19 @@
         if($('#first-languages li:first-child.selected').length){
             $('.main-footer .address .adr1_rus').css('display', 'block');
             $('.main-footer .address .adr2_rus').css('display', 'block');
+            $('.main-footer .address .more_rus').css('display', 'block');
             $('.main-footer .form_rus').css('display', 'block');
         }
         if($('#first-languages li:nth-child(2).selected').length){
             $('.main-footer .address .adr1_ukr').css('display', 'block');
             $('.main-footer .address .adr2_ukr').css('display', 'block');
+            $('.main-footer .address .more_ukr').css('display', 'block');
             $('.main-footer .form_ukr').css('display', 'block');
         }
         if($('#first-languages li:nth-child(3).selected').length){
             $('.main-footer .address .adr1_en').css('display', 'block');
             $('.main-footer .address .adr2_en').css('display', 'block');
+            $('.main-footer .address .more_en').css('display', 'block');
             $('.main-footer .form_en').css('display', 'block');
         }
     });
