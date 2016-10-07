@@ -9452,8 +9452,7 @@ span.view_scroll_spacer {
   .top-line .callback-wrap {
     padding-left: 25%; }
   .main-footer .address{
-    font-size: 15px;
-    width: 192px;}
+    font-size: 15px;}
   .item-wrap .item-container .item-img img {
     width: 103.5%;
     height: 100%;
@@ -9796,4 +9795,92 @@ span.view_scroll_spacer {
 .main-footer ul.mail-ft li:last-child a{
     text-decoration: underline;
 }
+
+#social_block{
+    text-align: right;
+    padding-right: 25px;
+}
+#social_block ul{
+    width: 100%;
+}
+#social_block a.call_rus,
+#social_block a.call_ukr,
+#social_block a.call_en{
+    display: none;
+    width: 220px;
+    height: 50px;
+    margin-bottom: 35px;
+    padding-top: 10px;
+    border: 1px solid #CCCCCC;
+    border-radius: 30px;
+    text-align: center;
+    text-decoration: none;
+    color: #cccccc;
+    cursor: normal;
+}
+#social_block ul li a{
+    float: right;
+    width: 40px;
+    height: 40px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    border-radius: 50%;
+    border: 1px solid #CCCCCC;
+}
+#social_block ul li a:hover{
+    border: 1px solid #f9cd14;
+}
+#social_block ul li.facebook a{
+    background: url("../img/fb.png") no-repeat center;
+}
+#social_block ul li.facebook a:hover{
+    background: url("../img/fb-hover.png") no-repeat center;
+}
+#social_block ul li.twitter a{
+    background: url("../img/tw.png") no-repeat center;
+}
+#social_block ul li.twitter a:hover{
+    background: url("../img/tw-hover.png") no-repeat center;
+}
+#social_block ul li.rss a{
+    background: url("../img/vk.png") no-repeat center;
+}
+#social_block ul li.rss a:hover{
+    background: url("../img/vk-hover.png") no-repeat center;
+}
+#social_block ul li.youtube a{
+    background: url("../img/you.png") no-repeat center;
+}
+#social_block ul li.youtube a:hover{
+    background: url("../img/you-hover.png") no-repeat center;
+}
+#social_block ul li.google-plus a{
+    background: url("../img/g+.png") no-repeat center;
+}
+#social_block ul li.google-plus a:hover{
+    background: url("../img/g+-hover.png") no-repeat center;
+}
+#social_block .social-header-rus span,
+#social_block .social-header-ukr span,
+#social_block .social-header-en span{
+    width: 100%;
+    display: block;
+    float: right;
+    font-size: 13px;
+    line-height: 20px;
+}
+#social_block .social-icon{
+    margin-top: 20px;
+}
+#social_block .social-header-rus,
+#social_block .social-header-ukr,
+#social_block .social-header-en{
+    display: none;
+    width: 100%;
+    text-transform: uppercase;
+    font-size: 12px;
+    line-height: 14px;
+    text-align: right;
+}
+
 /*END REDESIGN */

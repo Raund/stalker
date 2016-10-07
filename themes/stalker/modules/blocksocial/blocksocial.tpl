@@ -1,37 +1,68 @@
-<section id="social_block" class="pull-right">
-	<ul>
+<script>
+    $(function(){
+        if($('#first-languages li:first-child.selected').length){
+            $('#social_block  a.call_rus').css('display', 'block');
+            $('#social_block .social-header-rus').css('display', 'block');
+        }
+        if($('#first-languages li:nth-child(2).selected').length){
+            $('#social_block  a.call_ukr').css('display', 'block');
+            $('#social_block .social-header-ukr').css('display', 'block');
+        }
+        if($('#first-languages li:nth-child(3).selected').length){
+            $('#social_block  a.call_en').css('display', 'block');
+            $('#social_block .social-header-en').css('display', 'block');
+        }
+    });
+</script>
+<section id="social_block" class="col-md-4 col-sm-4 pull-right">
+    <div class="clearfix">
+        <a href="#" class="call_rus pull-right">Задайте нам вопрос</a>
+        <a href="#" class="call_ukr pull-right">Задайте нам питання</a>
+        <a href="#" class="call_en pull-right">Ask us a question</a>
+    </div>
+	<div class="social-header-rus clearfix">
+        <span>Подписывайтесь</span>
+        <span>на новости и обновления</span>
+    </div>
+    <div class="social-header-ukr clearfix">
+        <span>Підписуйтесь</span>
+        <span>на новини і оновлення</span>
+    </div>
+    <div class="social-header-en clearfix">
+        <span>subscribe</span>
+        <span>on news and updates</span>
+    </div>
+	<ul class="social-icon clearfix">
 		{if isset($facebook_url) && $facebook_url != ''}
 			<li class="facebook">
-				<a class="_blank" href="{$facebook_url|escape:html:'UTF-8'}">
-					<span>{l s='Facebook' mod='blocksocial'}</span>
-				</a>
+				<a class="_blank" href="{$facebook_url|escape:html:'UTF-8'}"></a>
 			</li>
 		{/if}
 		{if isset($twitter_url) && $twitter_url != ''}
 			<li class="twitter">
 				<a class="_blank" href="{$twitter_url|escape:html:'UTF-8'}">
-					<span>{l s='Twitter' mod='blocksocial'}</span>
+					<span>{l s='' mod='blocksocial'}</span>
 				</a>
 			</li>
 		{/if}
 		{if isset($vk_url) && $vk_url != ''}
 			<li class="rss">
 				<a class="_blank" href="{$vk_url|escape:html:'UTF-8'}">
-					<span>{l s='VK' mod='blocksocial'}</span>
+					<span>{l s='' mod='blocksocial'}</span>
 				</a>
 			</li>
 		{/if}
         {if isset($youtube_url) && $youtube_url != ''}
         	<li class="youtube">
         		<a class="_blank" href="{$youtube_url|escape:html:'UTF-8'}">
-        			<span>{l s='Youtube' mod='blocksocial'}</span>
+        			<span>{l s='' mod='blocksocial'}</span>
         		</a>
         	</li>
         {/if}
         {if isset($google_plus_url) && $google_plus_url != ''}
         	<li class="google-plus">
         		<a class="_blank" href="{$google_plus_url|escape:html:'UTF-8'}" rel="publisher">
-        			<span>{l s='Google Plus' mod='blocksocial'}</span>
+        			<span>{l s='' mod='blocksocial'}</span>
         		</a>
         	</li>
         {/if}

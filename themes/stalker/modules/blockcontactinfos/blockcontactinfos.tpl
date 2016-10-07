@@ -6,7 +6,7 @@
 <footer class="main-footer">
     <div class="container">
         <div class="address">
-            <div class="col-md-4">
+            <div class="col-sm-4 col-md-4">
 
                 <div class="adr1_rus">
 
@@ -184,7 +184,7 @@
                 </div>
             </div>
         </div>
-        <div class="col-md-4">
+        <div class="col-sm-4 col-md-4">
             <div class="address">
                 <div class="adr2_rus">
 
