@@ -8984,7 +8984,7 @@ ul {
     text-align: center;
     background: #FFF;
     color: #000;
-    max-height: 1390px;
+   /* max-height: 1390px;*/
     padding: 0 25px 1px; }
 .item-wrap h1 {
     margin: 30px 0 35px 0; }
