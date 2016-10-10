@@ -63,7 +63,7 @@
 
     <div class="wrapper">
         <header class="top-line" id="header">
-            <div class="col-xs-7 col-sm-3 col-md-4">
+            <div class="col-xs-7 col-sm-3 col-md-3">
                 <div class="logo-wrap">
                     <a href="{$base_dir}" title="{$shop_name|escape:'html':'UTF-8'}" class="logo"><img src="{$img_dir}/logo.png" alt=""></a>
                 </div>

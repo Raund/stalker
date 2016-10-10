@@ -49,3 +49,26 @@
         <span class="callme_viewform">{l s='Обратный звонок' mod='blockcontact'}</span>
     </div>
 </div>
+<div class="col-xs-7 col-sm-4 col-md-1">
+    <div class="wrap-about-us">
+        <span id="about-us" class="about-us_rus">О нас</span>
+        <span id="about-us" class="about-us_ukr">Про нас</span>
+        <span id="about-us" class="about-us_en">About us</span>
+    </div>
+</div>
+<script>
+    $(function(){
+        $('#about-us').on('click', function () {
+            $('#about-us-view').toggleClass('about-active');
+        })
+        if($('#first-languages li:first-child.selected').length){
+            $('.about-us_rus').css('display', 'block');
+        }
+        if($('#first-languages li:nth-child(2).selected').length){
+            $('.about-us_ukr').css('display', 'block');
+        }
+        if($('#first-languages li:nth-child(3).selected').length){
+            $('.about-us_en').css('display', 'block');
+        }
+    });
+</script>

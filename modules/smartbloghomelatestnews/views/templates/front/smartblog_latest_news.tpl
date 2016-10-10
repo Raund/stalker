@@ -1,4 +1,5 @@
-{if isset($view_data) AND !empty($view_data)}
+<div id="about-us-view" class="about-us-view">
+    {if isset($view_data) AND !empty($view_data)}
     {assign var='i' value=1}
     {foreach from=$view_data item=post}
     <div class="article-box">
@@ -12,4 +13,5 @@
         {$i=$i+1}
     </div>
     {/foreach}
-{/if}
+    {/if}
+</div>

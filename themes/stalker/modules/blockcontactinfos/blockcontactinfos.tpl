@@ -59,8 +59,8 @@
                         </li>
                         <li>
                             {if $blockcontactinfos_email5 != ''}
-                                <a href="#" class="more more_rus">Карта доезда<i class="fa fa-angle-down"></i></a>
-                                <a href="#" class="more more_ukr">Карта доїзду<i class="fa fa-angle-down"></i></a>
+                                <a href="#" class="more more_rus">Карта проезда<i class="fa fa-angle-down"></i></a>
+                                <a href="#" class="more more_ukr">Карта проїзду<i class="fa fa-angle-down"></i></a>
                                 <a href="#" class="more more_en">Map<i class="fa fa-angle-down"></i></a>
                                 <div class="spoiler-body" style="display: none;"><iframe src="{$blockcontactinfos_email5}" width="400" height="300" frameborder="0" style="border:0" allowfullscreen></iframe></div>
                             {/if}
@@ -119,8 +119,8 @@
                         </li>
                         <li>
                             {if $blockcontactinfos_email5 != ''}
-                                <a href="#" class="more more_rus">Карта доезда<i class="fa fa-angle-down"></i></a>
-                                <a href="#" class="more more_ukr">Карта доїзду<i class="fa fa-angle-down"></i></a>
+                                <a href="#" class="more more_rus">Карта проезда<i class="fa fa-angle-down"></i></a>
+                                <a href="#" class="more more_ukr">Карта проїзду<i class="fa fa-angle-down"></i></a>
                                 <a href="#" class="more more_en">Map<i class="fa fa-angle-down"></i></a>
                                 <div class="spoiler-body" style="display: none;"><iframe src="{$blockcontactinfos_email5}" width="400" height="300" frameborder="0" style="border:0" allowfullscreen></iframe></div>
                             {/if}
@@ -179,8 +179,8 @@
                         </li>
                         <li>
                             {if $blockcontactinfos_email5 != ''}
-                                <a href="#" class="more more_rus">Карта доезда<i class="fa fa-angle-down"></i></a>
-                                <a href="#" class="more more_ukr">Карта доїзду<i class="fa fa-angle-down"></i></a>
+                                <a href="#" class="more more_rus">Карта проезда<i class="fa fa-angle-down"></i></a>
+                                <a href="#" class="more more_ukr">Карта проїзду<i class="fa fa-angle-down"></i></a>
                                 <a href="#" class="more more_en">Map<i class="fa fa-angle-down"></i></a>
                                 <div class="spoiler-body" style="display: none;"><iframe src="{$blockcontactinfos_email5}" width="400" height="300" frameborder="0" style="border:0" allowfullscreen></iframe></div>
                             {/if}
@@ -241,8 +241,8 @@
                         </li>
                         <li>
                             {if $blockcontactinfos_email6 != ''}
-                                <a href="#" class="more more_rus">Карта доезда<i class="fa fa-angle-down"></i></a>
-                                <a href="#" class="more more_ukr">Карта доїзду<i class="fa fa-angle-down"></i></a>
+                                <a href="#" class="more more_rus">Карта проезда<i class="fa fa-angle-down"></i></a>
+                                <a href="#" class="more more_ukr">Карта проїзду<i class="fa fa-angle-down"></i></a>
                                 <a href="#" class="more more_en">Map<i class="fa fa-angle-down"></i></a>
                                 <div class="spoiler-body" style="display: none;"><iframe src="{$blockcontactinfos_email6}" width="400" height="300" frameborder="0" style="border:0" allowfullscreen></iframe></div>
                             {/if}
@@ -301,8 +301,8 @@
                         </li>
                         <li>
                             {if $blockcontactinfos_email5 != ''}
-                                <a href="#" class="more more_rus">Карта доезда<i class="fa fa-angle-down"></i></a>
-                                <a href="#" class="more more_ukr">Карта доїзду<i class="fa fa-angle-down"></i></a>
+                                <a href="#" class="more more_rus">Карта проезда<i class="fa fa-angle-down"></i></a>
+                                <a href="#" class="more more_ukr">Карта проїзду<i class="fa fa-angle-down"></i></a>
                                 <a href="#" class="more more_en">Map<i class="fa fa-angle-down"></i></a>
                                 <div class="spoiler-body" style="display: none;"><iframe src="{$blockcontactinfos_email5}" width="400" height="300" frameborder="0" style="border:0" allowfullscreen></iframe></div>
                             {/if}
@@ -361,8 +361,8 @@
                         </li>
                         <li>
                             {if $blockcontactinfos_email5 != ''}
-                                <a href="#" class="more more_rus">Карта доезда<i class="fa fa-angle-down"></i></a>
-                                <a href="#" class="more more_ukr">Карта доїзду<i class="fa fa-angle-down"></i></a>
+                                <a href="#" class="more more_rus">Карта проезда<i class="fa fa-angle-down"></i></a>
+                                <a href="#" class="more more_ukr">Карта проїзду<i class="fa fa-angle-down"></i></a>
                                 <a href="#" class="more more_en">Map<i class="fa fa-angle-down"></i></a>
                                 <div class="spoiler-body" style="display: none;"><iframe src="{$blockcontactinfos_email5}" width="400" height="300" frameborder="0" style="border:0" allowfullscreen></iframe></div>
                             {/if}
