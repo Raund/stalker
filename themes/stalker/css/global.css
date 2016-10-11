@@ -9897,11 +9897,15 @@ span.view_scroll_spacer {
 .about-us_en{
     display: none;
 }
-#about-us{
+#about-us-rus,
+#about-us-ukr,
+#about-us-en{
     text-transform: none;
     cursor: pointer;
 }
-#about-us:hover{
+#about-us-rus:hover,
+#about-us-ukr:hover,
+#about-us-en:hover{
     color: #f9cd14;
 }
 .about-us-view{

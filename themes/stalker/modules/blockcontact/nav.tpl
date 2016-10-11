@@ -51,16 +51,22 @@
 </div>
 <div class="col-xs-7 col-sm-4 col-md-1">
     <div class="wrap-about-us">
-        <span id="about-us" class="about-us_rus">О нас</span>
-        <span id="about-us" class="about-us_ukr">Про нас</span>
-        <span id="about-us" class="about-us_en">About us</span>
+        <span id="about-us-rus" class="about-us_rus">О нас</span>
+        <span id="about-us-ukr" class="about-us_ukr">Про нас</span>
+        <span id="about-us-en" class="about-us_en">About us</span>
     </div>
 </div>
 <script>
     $(function(){
-        $('#about-us').on('click', function () {
+        $('#about-us-rus').on('click', function () {
             $('#about-us-view').toggleClass('about-active');
-        })
+        });
+        $('#about-us-ukr').on('click', function () {
+            $('#about-us-view').toggleClass('about-active');
+        });
+        $('#about-us-en').on('click', function () {
+            $('#about-us-view').toggleClass('about-active');
+        });
         if($('#first-languages li:first-child.selected').length){
             $('.about-us_rus').css('display', 'block');
         }
