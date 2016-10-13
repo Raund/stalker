@@ -13,9 +13,11 @@
 			<p id="admin-action-result"></p>
 		</div>
 	{/if}
-	<div class="rte{if $content_only} content_only{/if}">
+	<!--<div class="rte{if $content_only} content_only{/if}">-->
+	<div class="categories-wrap clearfix">
 		{$cms->content}
 	</div>
+	<!--</div>-->
 {elseif isset($cms_category)}
 	<div class="block-cms">
 		<h1><a href="{if $cms_category->id eq 1}{$base_dir}{else}{$link->getCMSCategoryLink($cms_category->id, $cms_category->link_rewrite)}{/if}">{$cms_category->name|escape:'html':'UTF-8'}</a></h1>
@@ -48,7 +50,7 @@
 		{l s='This page does not exist.'}
 	</div>
 {/if}
-<br />
+
 {strip}
 {if isset($smarty.get.ad) && $smarty.get.ad}
 {addJsDefL name=ad}{$base_dir|cat:$smarty.get.ad|escape:'html':'UTF-8'}{/addJsDefL}

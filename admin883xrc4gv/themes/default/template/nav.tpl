@@ -36,6 +36,14 @@
                     <span>Редактор слайдера</span>
                 </a>
             </li>
+
+			<li class="maintab">
+				<a href='{$base_dir}/admin883xrc4gv/index.php?controller=AdminCmsContent&id_cms=4&updatecms&token=62972bfcfcfeeb16a491d65c8a437322' class="title" >
+					<i class="icon-slide"></i>
+					<span>Ред. страницы О нас</span>
+				</a>
+			</li>
+
             <li class="maintab">
                 <a href='{$base_dir}/admin883xrc4gv/index.php?controller=AdminModules&token=1aa435cfdb972afe19c9f7d1369c7d0d&configure=blockcontact&tab_module=front_office_features&module_name=blockcontact' class="title" >
                     <i class="icon-telephone"></i>
