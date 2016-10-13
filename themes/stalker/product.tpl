@@ -22,7 +22,79 @@
 			<div class="pb-left-column col-xs-12">
 				<!-- product img-->
 				<div id="image-block" class="clearfix">
+				<!-- ################################################################### -->
+					<!-- product img-->
+					<div id="image-block1" class="clearfix">
 
+						{if $have_image}
+							<span id="view_full_size">
+						{if $jqZoomEnabled && $have_image && !$content_only}
+							<a class="jqzoom" title="{if !empty($cover.legend)}{$cover.legend|escape:'html':'UTF-8'}{else}{$product->name|escape:'html':'UTF-8'}{/if}" rel="gal1" href="{$link->getImageLink($product->link_rewrite, $cover.id_image, 'thickbox_default')|escape:'html':'UTF-8'}">
+								<img itemprop="image" src="{$link->getImageLink($product->link_rewrite, $cover.id_image)|escape:'html':'UTF-8'}" title="{if !empty($cover.legend)}{$cover.legend|escape:'html':'UTF-8'}{else}{$product->name|escape:'html':'UTF-8'}{/if}" alt="{if !empty($cover.legend)}{$cover.legend|escape:'html':'UTF-8'}{else}{$product->name|escape:'html':'UTF-8'}{/if}"/>
+							</a>
+						{else}
+							<img id="bigpic" itemprop="image" src="{$link->getImageLink($product->link_rewrite, $cover.id_image)|escape:'html':'UTF-8'}" title="{if !empty($cover.legend)}{$cover.legend|escape:'html':'UTF-8'}{else}{$product->name|escape:'html':'UTF-8'}{/if}" alt="{if !empty($cover.legend)}{$cover.legend|escape:'html':'UTF-8'}{else}{$product->name|escape:'html':'UTF-8'}{/if}" width="{$largeSize.width}" height="{$largeSize.height}"/>
+						{/if}
+					</span>
+						{else}
+							<span id="view_full_size">
+						<img itemprop="image" src="{$img_prod_dir}{$lang_iso}-default-large_default.jpg" id="bigpic" alt="" title="{$product->name|escape:'html':'UTF-8'}" width="{$largeSize.width}" height="{$largeSize.height}"/>
+								{if !$content_only}
+									<span class="span_link">
+								{l s='View larger'}
+							</span>
+								{/if}
+					</span>
+						{/if}
+					</div> <!-- end image-block -->
+					{if isset($images) && count($images) > 0}
+						<!-- thumbnails -->
+						<div id="views_block" class="clearfix {if isset($images) && count($images) < 2}hidden{/if}">
+							{if isset($images) && count($images) > 2}
+								<span class="view_scroll_spacer">
+								<a id="view_scroll_left" class="" title="{l s='Other views'}" href="javascript:{ldelim}{rdelim}">
+									{l s='Previous'}
+								</a>
+							</span>
+							{/if}
+							<div id="thumbs_list">
+								<ul id="thumbs_list_frame">
+									{if isset($images)}
+										{foreach from=$images item=image name=thumbnails}
+											{assign var=imageIds value="`$product->id`-`$image.id_image`"}
+											{if !empty($image.legend)}
+												{assign var=imageTitle value=$image.legend|escape:'html':'UTF-8'}
+											{else}
+												{assign var=imageTitle value=$product->name|escape:'html':'UTF-8'}
+											{/if}
+											<li id="thumbnail_{$image.id_image}"{if $smarty.foreach.thumbnails.last} class="last"{/if}>
+												<a{if $jqZoomEnabled && $have_image && !$content_only} href="javascript:void(0);" rel="{literal}{{/literal}gallery: 'gal1', smallimage: '{$link->getImageLink($product->link_rewrite, $imageIds, 'large_default')|escape:'html':'UTF-8'}',largeimage: '{$link->getImageLink($product->link_rewrite, $imageIds, 'thickbox_default')|escape:'html':'UTF-8'}'{literal}}{/literal}"{else} href="{$link->getImageLink($product->link_rewrite, $imageIds, 'thickbox_default')|escape:'html':'UTF-8'}"	data-fancybox-group="other-views" class="fancybox{if $image.id_image == $cover.id_image} shown{/if}"{/if} title="{$imageTitle}">
+													<img class="img-responsive" id="thumb_{$image.id_image}" src="{$link->getImageLink($product->link_rewrite, $imageIds, 'cart_default')|escape:'html':'UTF-8'}" alt="{$imageTitle}" title="{$imageTitle}"{if isset($cartSize)} height="{$cartSize.height}" width="{$cartSize.width}"{/if} itemprop="image" />
+												</a>
+											</li>
+										{/foreach}
+									{/if}
+								</ul>
+							</div> <!-- end thumbs_list -->
+							{if isset($images) && count($images) > 2}
+								<a id="view_scroll_right" title="{l s='Other views'}" href="javascript:{ldelim}{rdelim}">
+									{l s='Next'}
+								</a>
+							{/if}
+						</div> <!-- end views-block -->
+						<!-- end thumbnails -->
+					{/if}
+					{if isset($images) && count($images) > 1}
+						<p class="resetimg clear no-print">
+						<span id="wrapResetImages" style="display: none;">
+							<a href="{$link->getProductLink($product)|escape:'html':'UTF-8'}" data-id="resetImages">
+								<i class="icon-repeat"></i>
+								{l s='Display all pictures'}
+							</a>
+						</span>
+						</p>
+					{/if}
+				<!-- ################################################################### -->
                     {if isset($images) && count($images) > 0}
                         {if isset($images)}
 
@@ -58,7 +130,7 @@
                                 grid_num_rows:3,
                                 gridpanel_vertical_scroll:true,
                                 gridpanel_grid_align: "middle",
-                                thumb_width:140,
+                                thumb_width:120,
                                 thumb_height:100,
                                 gridpanel_padding_border_top: 0,		    //padding between the top border of the panel
                                 gridpanel_padding_border_bottom: 0,			//padding between the bottom border of the panel
@@ -75,6 +147,7 @@
                                 slider_enable_arrows: false,
                                 slider_enable_play_button: false,
                                 slider_enable_zoom_panel: false,
+								slider_enable_fullscreen_button: false,
                                 slider_fullscreen_button_align_hor:"left",   //left, center, right	- fullscreen button horizonatal align
                                 slider_fullscreen_button_align_vert:"top",   //top, middle, bottom - fullscreen button vertical align
                                 slider_fullscreen_button_offset_hor:0,	     //fullscreen button horizontal offset
