@@ -92,7 +92,6 @@
 			<!-- end left infos-->
 			<!-- center infos -->
 			<div class="pb-center-column product-page-description col-xs-12 col-sm-12 col-md-12">
-
 				{if isset($product) && $product->description}
 				<!-- More info -->
 				<section class="page-product-box">

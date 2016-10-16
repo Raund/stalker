@@ -365,7 +365,7 @@ var fields, fieldType, f, required, selects, data='', selectData='';
 		cmeShow(e);
 		return false;
 	});
-
+// сделано для кнопки задать вопрос
 	$(document).delegate('.sendmessage_viewform', 'click', function(e) { // click show form link
 		e.preventDefault();
 
@@ -377,7 +377,20 @@ var fields, fieldType, f, required, selects, data='', selectData='';
 		cmeShow(e);
 		return false;
 	});
+//END сделано для кнопки задать вопрос
+// сделано для кнопки узнать цену
+	$(document).delegate('.askprice_viewform', 'click', function(e) { // click show form link
+		e.preventDefault();
 
+		var cmeAttribute = $(this).attr('data-cme') || false;
+		setData('cmeAttribute', cmeAttribute);
+		cmeForm.find('.h6').text(cmeData.title_askprice);
+		cmeForm.find('.cme-fields span:nth-child(4) input').prop('required', true);
+		cmeForm.find('.cme-fields span:nth-child(6) input').prop('required', false);
+		cmeShow(e);
+		return false;
+	});
+//END сделано для кнопки узнать цену
 	$(document).delegate('.cme-cls', 'click', function(e) { // close button
 		e.preventDefault();
 		cmeHide();

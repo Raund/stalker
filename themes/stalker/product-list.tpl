@@ -35,7 +35,13 @@
 			<p class="product-item-description" itemprop="description">
 				{$product.description|strip_tags:'UTF-8'|truncate:360:'...'}
 			</p>
-			
+
+			<a class="askprice_viewform product-item-more product-item-askprice" href="#">
+				<span class="ask-price-rus">Узнать цену</span>
+				<span class="ask-price-ukr">Взнати ціну</span>
+				<span class="ask-price-en">Ask price</span>
+			</a>
+
 			<a class="product-item-more" href="{$product.link|escape:'html':'UTF-8'}" title="{l s='View'}">
 				{if (isset($product.customization_required) && $product.customization_required)}{l s='Customize'}{else}{l s='More'}{/if}
 			</a>
@@ -46,6 +52,19 @@
 
 	{/foreach}
 
+	<script>
+		$(function(){
+			if($('#first-languages li:first-child.selected').length){
+				$('.ask-price-rus').css('display', 'block');
+			}
+			if($('#first-languages li:nth-child(2).selected').length){
+				$('.ask-price-ukr').css('display', 'block');
+			}
+			if($('#first-languages li:nth-child(3).selected').length){
+				$('.ask-price-en').css('display', 'block');
+			}
+		});
+	</script>
     
 {addJsDefL name=min_item}{l s='Please select at least one product' js=1}{/addJsDefL}
 {addJsDefL name=max_item}{l s='You cannot add more than %d product(s) to the product comparison' sprintf=$comparator_max_item js=1}{/addJsDefL}

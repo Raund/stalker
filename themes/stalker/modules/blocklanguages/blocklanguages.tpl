@@ -1,4 +1,4 @@
-<div class="col-xs-5 col-sm-2 col-md-2">
+<div class="col-xs-3 col-sm-2 col-md-2">
 <!-- Block languages module -->
     {if count($languages) > 1}
 

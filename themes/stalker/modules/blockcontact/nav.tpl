@@ -19,12 +19,12 @@
 
 </div>
 <!--Подключение обратного звонка-->
-<div class="col-xs-7 col-sm-4 col-md-3">
+<div class="col-xs-6 col-sm-3 col-md-3">
     <div class="callback-wrap">
         <span class="callme_viewform">{l s='Обратный звонок' mod='blockcontact'}</span>
     </div>
 </div>
-<div class="col-xs-7 col-sm-4 col-md-1">
+<div class="col-xs-3 col-sm-1 col-md-1">
     <div class="wrap-about-us">
         <a href="{$base_dir}content/4-about-us"><span id="about-us-rus" class="about-us_rus">О нас</span></a>
         <a href="{$base_dir}content/4-about-us"><span id="about-us-ukr" class="about-us_ukr">Про нас</span></a>

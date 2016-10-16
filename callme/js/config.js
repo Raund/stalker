@@ -20,6 +20,7 @@ if($('#first-languages li:first-child.selected').length){
 	
 	'title' 				: 'Закажите обратный звонок', 
     'title_sendmessage' 	: 'Задать вопрос',
+    'title_askprice'	 	: 'Узнать цену',
 
 	// надпись на кнопке
 	'button' 				: 'Отправить',

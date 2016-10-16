@@ -6,7 +6,7 @@
 <footer class="main-footer">
     <div class="container">
         <div class="address">
-            <div class="col-sm-4 col-md-4">
+            <div class="col-xs-12 col-sm-4 col-md-4">
 
                 <div class="adr1_rus">
 
@@ -190,8 +190,8 @@
                 </div>
             </div>
         </div>
-        <div class="col-sm-4 col-md-4">
-            <div class="address">
+        <div class="address">
+            <div class="col-xs-12 col-sm-4 col-md-4">
                 <div class="adr2_rus">
 
                     <ul class="address-ft">
