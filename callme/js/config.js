@@ -73,6 +73,7 @@ if($('#first-languages li:nth-child(2).selected').length){
 	
 	'title' 				: 'Замовте зворотній дзвінок',
     'title_sendmessage' 	: 'Задати питання',
+    'title_askprice'	 	: 'Взнати ціну',
 
 	// надпись на кнопке
 	'button' 				: 'Відправити',
@@ -125,7 +126,7 @@ if($('#first-languages li:nth-child(3).selected').length){
 	
 	'title' 				: 'Order a call back',
     'title_sendmessage' 	: 'Ask a question',
-
+	'title_askprice'	 	: 'Ask a price',
 
 	// надпись на кнопке
 	'button' 				: 'Send',
