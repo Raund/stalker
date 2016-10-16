@@ -319,6 +319,6 @@
 .cme-form .cme-cls:hover {
     background: url('../yellow/close_yellow.png') no-repeat 50% 50%;
 }
-input.cme-name:required, input.cme-phone {
+input.cme-name:required, input.cme-phone:required {
   background: url(../yellow/star.png) no-repeat 96% 27%;
 }

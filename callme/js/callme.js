@@ -359,10 +359,24 @@ var fields, fieldType, f, required, selects, data='', selectData='';
 
 		var cmeAttribute = $(this).attr('data-cme') || false;
 		setData('cmeAttribute', cmeAttribute);
-
+		cmeForm.find('.h6').text(cmeData.title);
+		cmeForm.find('.cme-fields span:nth-child(4) input').prop('required', true);
+		cmeForm.find('.cme-fields span:nth-child(6) input').prop('required', false);
 		cmeShow(e);
 		return false;
-	}); 
+	});
+
+	$(document).delegate('.sendmessage_viewform', 'click', function(e) { // click show form link
+		e.preventDefault();
+
+		var cmeAttribute = $(this).attr('data-cme') || false;
+		setData('cmeAttribute', cmeAttribute);
+		cmeForm.find('.h6').text(cmeData.title_sendmessage);
+		cmeForm.find('.cme-fields span:nth-child(4) input').prop('required', false);
+		cmeForm.find('.cme-fields span:nth-child(6) input').prop('required', true);
+		cmeShow(e);
+		return false;
+	});
 
 	$(document).delegate('.cme-cls', 'click', function(e) { // close button
 		e.preventDefault();
@@ -424,6 +438,8 @@ var fields, fieldType, f, required, selects, data='', selectData='';
 	function setData(e,v) { // save data
 		localStorage.setItem(e, v);
 	}
+
+
 });
 
 })(jQuery);

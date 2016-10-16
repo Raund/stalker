@@ -75,6 +75,7 @@
                                 slider_enable_arrows: false,
                                 slider_enable_play_button: false,
                                 slider_enable_zoom_panel: false,
+								slider_enable_fullscreen_button: false,
                                 slider_fullscreen_button_align_hor:"left",   //left, center, right	- fullscreen button horizonatal align
                                 slider_fullscreen_button_align_vert:"top",   //top, middle, bottom - fullscreen button vertical align
                                 slider_fullscreen_button_offset_hor:0,	     //fullscreen button horizontal offset

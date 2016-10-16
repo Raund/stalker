@@ -41,7 +41,7 @@
 			{/foreach}
 		{/if}
 		{$HOOK_HEADER}
-        {literal}<script type="text/javascript" src="/callme/js/callme.min.js"></script>{/literal}
+        {literal}<script type="text/javascript" src="/callme/js/callme.js"></script>{/literal}
         {literal}<script type="text/javascript" src="/owl.carousel/owl.carousel.min.js"></script>{/literal}
         {literal}<script type="text/javascript" src="/lightgallery/lightgallery.min.js"></script>{/literal}
         {literal}<script type="text/javascript" src="/unitegallery/dist/themes/grid/ug-theme-grid.js"></script>{/literal}

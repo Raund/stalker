@@ -33,15 +33,6 @@
 </div>
 <script>
     $(function(){
-        $('#about-us-rus').on('click', function () {
-            $('#about-us-view').toggleClass('about-active');
-        });
-        $('#about-us-ukr').on('click', function () {
-            $('#about-us-view').toggleClass('about-active');
-        });
-        $('#about-us-en').on('click', function () {
-            $('#about-us-view').toggleClass('about-active');
-        });
         if($('#first-languages li:first-child.selected').length){
             $('.about-us_rus').css('display', 'block');
         }

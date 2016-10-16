@@ -14,7 +14,7 @@
 		</div>
 	{/if}
 	<!--<div class="rte{if $content_only} content_only{/if}">-->
-	<div class="categories-wrap clearfix">
+	<div class="cms-wrap clearfix" style="background: #fff; padding: 0 40px 40px;">
 		{$cms->content}
 	</div>
 	<!--</div>-->
