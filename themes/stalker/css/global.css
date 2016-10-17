@@ -9588,6 +9588,7 @@ span.view_scroll_spacer {
 #social_block a.call_ukr,
 #social_block a.call_en{
     display: none;
+    float: right;
     width: 220px;
     height: 50px;
     margin-bottom: 35px;
@@ -9597,7 +9598,6 @@ span.view_scroll_spacer {
     text-align: center;
     text-decoration: none;
     color: #cccccc;
-    cursor: normal;
 }
 #social_block a.call_rus:hover,
 #social_block a.call_ukr:hover,
@@ -9834,7 +9834,9 @@ span.view_scroll_spacer {
   #social_block a.call_rus,
   #social_block a.call_ukr,
   #social_block a.call_en{
+    float: none;
     margin: 0 auto;
+    margin-bottom: 10px;
   }
   .main-footer #social_block .social-header-rus,
   .main-footer #social_block .social-header-ukr,
@@ -9886,8 +9888,7 @@ span.view_scroll_spacer {
     padding-left: 10%;
     padding-right: 0;
   }
-  .categories-item, .sub-categories-item,
-  .categories-item:nth-child(3n), .sub-categories-item:nth-child(3n){
+  .categories-item, .sub-categories-item, .categories-item:nth-child(3n), .sub-categories-item:nth-child(3n){
     width: 40%;
     margin-right: 10%;
   }
