@@ -9013,7 +9013,8 @@ ul {
     padding: 0 0 30px 0; }
 .item-wrap h3 {
     text-align: left;
-    margin-left: 15px; }
+    margin-left: 15px;
+    margin-bottom: 25px;}
 .item-wrap h3.cat-h3 {
     margin-left: -30px; }
 .item-wrap .carousel {
@@ -10052,3 +10053,98 @@ span.view_scroll_spacer {
 /* Small Devices, Tablets */
 /* Medium Devices, Desktops */
 /* Large Devices, Wide Screens */
+
+/*gallery for stalker*/
+.pb-left-column #image-block{
+  width: 415px;
+  height: 345px;
+  float: left;
+  margin-right: 20px;
+}
+.zoomWrapperImage{
+  height: 335px !important;
+}
+#thumbs_list ul#thumbs_list_frame{
+  width: 490px !important;
+  height: 360px !important;
+}
+#thumbs_list{
+  overflow: inherit !important;
+  position: relative;
+  margin-right: -20px;
+}
+#thumbs_list li{
+  width: 140px!important;
+  height: 100px!important;
+  margin-right: 20px!important;
+  margin-bottom: 20px!important;
+}
+#thumbs_list li a{
+  text-align: center;
+  width: 140px!important;
+  height: 100px!important;
+}
+#thumbs_list li img{
+  max-height: 100% !important;
+  max-width: 100% !important;
+  width: auto !important;
+  height: auto !important;
+}
+.item-wrap .item-container #thumbs_list img{
+  margin: 0 auto !important;
+}
+
+#view_scroll_left, #view_scroll_right{
+  display: none !important;
+}
+span.view_scroll_spacer{
+  display: none;
+}
+.zoomPad{
+  line-height: 335px;
+}
+
+.r-arrow{
+  position: absolute;
+  left: 46%;
+  width: 10px;
+  height: 32px;
+  cursor: pointer;
+}
+.r-arrow:hover{
+  cursor: pointer;
+}
+#r-arrow-top{
+  top: -25px;
+    background: url("../img/carousel_arrow_left.png");
+    -webkit-transform: rotate(90deg);
+    -moz-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    -o-transform: rotate(90deg);
+    transform: rotate(90deg);
+}
+#r-arrow-top:hover{
+    background: url("../img/carousel_arrow_left_yellow.png");
+    -webkit-transform: rotate(90deg);
+    -moz-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    -o-transform: rotate(90deg);
+    transform: rotate(90deg);
+}
+#r-arrow-bottom{
+  bottom: 0;
+    background: url("../img/carousel_arrow_right.png");
+    -webkit-transform: rotate(90deg);
+    -moz-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    -o-transform: rotate(90deg);
+    transform: rotate(90deg);
+}
+#r-arrow-bottom:hover{
+    background: url("../img/carousel_arrow_right_yellow.png");
+    -webkit-transform: rotate(90deg);
+    -moz-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    -o-transform: rotate(90deg);
+    transform: rotate(90deg);
+}
