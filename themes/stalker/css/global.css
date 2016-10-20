@@ -8641,7 +8641,7 @@ b, strong {
 body input:focus:required:invalid,
 body textarea:focus:required:invalid {
     color: #f26522;
-    border: 5px solid #f26522; }
+    border: 2px solid #f26522; }
 
 body input:required:valid,
 body textarea:required:valid {
@@ -10057,9 +10057,9 @@ span.view_scroll_spacer {
 /*gallery for stalker*/
 .pb-left-column #image-block{
   width: 415px;
-  height: 345px;
   float: left;
   margin-right: 20px;
+  z-index: 100;
 }
 .zoomWrapperImage{
   height: 335px !important;

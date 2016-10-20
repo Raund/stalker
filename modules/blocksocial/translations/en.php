@@ -34,6 +34,7 @@ $_MODULE['<{blocksocial}prestashop>blocksocial_15db599e0119be476d71bfc1fda72217'
 $_MODULE['<{blocksocial}prestashop>blocksocial_55f015a0c5605702f913536afe70cfb0'] = 'Instagram';
 $_MODULE['<{blocksocial}prestashop>blocksocial_970cfba66b8380fb97b742e4571356c6'] = 'Youtube';
 $_MODULE['<{blocksocial}prestashop>blocksocial_dda8dc38128a8c843ba9f496d6ee7186'] = 'Google Plus';
+$_MODULE['<{blocksocial}prestashop>blocksocial_f28a60e75bddd1ffdc94dfbc9358ccb9'] = 'Ask me a question';
 
 
 return $_MODULE;

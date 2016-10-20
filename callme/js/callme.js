@@ -183,7 +183,7 @@ var fields, fieldType, f, required, selects, data='', selectData='';
 	function cmeMsg(form, c, t) { // set status
 		var result = $(form).find('.callme-result');
 		if (c&&t){
-			result.html('<div class='+c+'>'+t+'</div>');			
+			result.html('<div class='+c+'>'+t+'</div>');
 		} else if (!c&&!t) {
 			result.html('');
 		}
@@ -200,6 +200,8 @@ var fields, fieldType, f, required, selects, data='', selectData='';
 
 	function cmeShow(e, a) {
 		cmeForm.css('position', 'absolute');
+		cmeForm.find('.cme-btn').prop('disabled', false);
+		cmeForm.find('.callme-result').html('');
 		if (cmeForm.is(':visible')) {
 			cmeForm.fadeOut('fast');
 			$('#cme-back').fadeOut('fast');

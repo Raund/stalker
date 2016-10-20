@@ -133,7 +133,7 @@ if($('#first-languages li:nth-child(3).selected').length){
 
 	// показывать ли время звонка (1 - да, 0 - нет)
 	'callTime' 			: '0', 
-	'txtCallTime' 	: 'Time to call',
+	'txtCallTime' 		: 'Time to call',
 	'txtToday' 			: 'today',
 	'txtTmrw' 			: 'tommorow',
 	'txtTill' 			: 'to',

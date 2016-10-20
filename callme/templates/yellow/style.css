@@ -106,7 +106,7 @@
     border-radius: 2px;
     color: #000;
     font-size: 16px;
-    padding: 8px 10px;
+    padding: 0 10px;
     margin-bottom: 4px;
     outline: 0; }
     @media (max-width: 992px) {
@@ -188,7 +188,8 @@
     background: #fff url(loading.gif) 10px center no-repeat;
     display: block;
     clear: both;
-    margin: 5px 11px 10px 10px; }
+    border-radius: 0 0 10px 10px;
+    /*margin: 5px 11px 10px 10px;*/ }
     .cme-form .callme-result div {
       padding: 7px 7px;
       margin: 4px 0 0 0; }
@@ -196,15 +197,20 @@
         padding: 7px 0 7px 35px;
         display: block;
         color: grey;
-        clear: both; }
+        clear: both;
+        text-align: center;}
       .cme-form .callme-result div.c_success {
         background: #98c462;
         color: #fff;
-        text-shadow: none; }
+        text-shadow: none;
+        text-align: center;
+        border-radius: 0 0 10px 10px;}
       .cme-form .callme-result div.c_error {
         background: #f76363;
         color: #fffafa;
-        text-shadow: none; }
+        text-shadow: none;
+        text-align: center;
+        border-radius: 0 0 10px 10px;}
 
 #viewform {
   border: 0;
@@ -291,9 +297,12 @@
   left: 30% !important;
 }
 .cme-form .callme-result {
-    bottom: -48px;
+    /*bottom: -48px;
     left: 31%;
-    position: absolute;
+    position: absolute;*/
+  width: 100%;
+  position: absolute;
+  bottom: -35px;
 }
 .cme-form .cme-cls {
     background: url('../yellow/close_white.png') no-repeat 50% 50%;
