@@ -12,15 +12,15 @@
 
 		    {/if}
 		    <div class="copyright_rus">
-		    	<span>Copyright © 2008-2016 Компания ООО “Сталкер”</span>
+		    	<span>Copyright © 2008-{$smarty.now|date_format:"%Y"} Компания ООО “Сталкер”</span>
 		    	<p>Все права защищены. Полное или частичное копирование материалов строго запрещено. <br> При согласовании использования материалов stalker.com.ua активная ссылка на сайте обязательна.</p>
 		    </div>
 		    <div class="copyright_ukr">
-		    	<span>Copyright © 2008-2016 Компанія ТзОВ “Сталкер”</span>
+		    	<span>Copyright © 2008-{$smarty.now|date_format:"%Y"} Компанія ТзОВ “Сталкер”</span>
 		    	<p>Всі права захищені. Повне або часткове копіювання матеріалів суворо заборонено. <br> При погодженні використання матеріалів stalker.com.ua активне посилання на сайт обов'язкове.</p>
 		    </div>
 		    <div class="copyright_en">
-		    	<span>Copyright © 2008-2016 Company “Stalker”</span>
+		    	<span>Copyright © 2008-{$smarty.now|date_format:"%Y"} Company “Stalker”</span>
 		    	<p>All rights reserved. Complete or partial copying of materials is strictly forbidden. <br>In case of coordination of use of the materials stalker.com.ua the active link on the website is mandatory.</p>
 		    </div>
 		{/if}
