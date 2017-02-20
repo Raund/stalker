@@ -11,7 +11,7 @@
                     {if !$path|strpos:'span'}
                         <span class="navigation_page">{$path}</span>
                     {else}
-                        {$path|truncate:335:'...'}
+                        {$path}
                     {/if}
                 {/if}
             </ul>
