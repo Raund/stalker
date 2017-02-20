@@ -8853,6 +8853,10 @@ ul {
 .main-footer .address .adr2_ukr,
 .main-footer .address .adr2_en{
     display: none; }
+.main-footer .address .adr3_rus,
+.main-footer .address .adr3_ukr,
+.main-footer .address .adr3_en{
+    display: none; }
 .main-footer .contact {
     list-style: none;
     margin: 0;
@@ -9551,7 +9555,7 @@ span.view_scroll_spacer {
   font-size: 14px;
   font-family: "OpenSans";
     line-height: 18px;
-    width: 70%;
+    width: 95%;
     padding-left: 30px;
 }
 .main-footer ul.address-ft{
@@ -9672,6 +9676,9 @@ span.view_scroll_spacer {
 }
 #social_block .social-icon{
     margin-top: 20px;
+    padding-left: 0;
+    width: 130%;
+    margin-left: -30%;
 }
 #social_block .social-header-rus,
 #social_block .social-header-ukr,

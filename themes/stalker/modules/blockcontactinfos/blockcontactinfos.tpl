@@ -6,7 +6,7 @@
 <footer class="main-footer">
     <div class="container">
         <div class="address">
-            <div class="col-xs-12 col-sm-4 col-md-4">
+            <div class="col-xs-12 col-sm-3 col-md-3">
 
                 <div class="adr1_rus">
 
@@ -191,7 +191,7 @@
             </div>
         </div>
         <div class="address">
-            <div class="col-xs-12 col-sm-4 col-md-4">
+            <div class="col-xs-12 col-sm-3 col-md-3">
                 <div class="adr2_rus">
 
                     <ul class="address-ft">
@@ -374,6 +374,190 @@
 
             </div>
         </div>
+        <div class="address">
+            <div class="col-xs-12 col-sm-3 col-md-3">
+                <div class="adr3_rus">
+
+                    <ul class="address-ft">
+                        <li>
+                            {if $blockcontactinfos_company2 != ''}
+                                {$blockcontactinfos_company2|escape:'html':'UTF-8'}
+                            {/if}
+                        </li>
+                        <li>
+                            {if $blockcontactinfos_address2 != ''}
+                                {$blockcontactinfos_address2|escape:'html':'UTF-8'}
+                            {/if}
+                        </li>
+                        <img src="/themes/stalker/img/address-pointer.png" alt="">
+                    </ul>
+
+                    <ul class="phone-ft">
+                        <li>
+                            {if $blockcontactinfos_phone4 != ''}
+                                {$blockcontactinfos_phone4|escape:'html':'UTF-8'}
+                            {/if}
+                        </li>
+                        <li>
+                            {if $blockcontactinfos_phone5 != ''}
+                                {$blockcontactinfos_phone5|escape:'html':'UTF-8'}
+                            {/if}
+                        </li>
+                        <li>
+                            {if $blockcontactinfos_phone6 != ''}
+                                {$blockcontactinfos_phone6|escape:'html':'UTF-8'}
+                            {/if}
+                        </li>
+                        <img src="/themes/stalker/img/phone-footer.png" alt="">
+                    </ul>
+
+                    <ul class="mail-ft">
+                        <li>
+                            {if $blockcontactinfos_email3 != ''}
+                                {mailto address=$blockcontactinfos_email3|escape:'html':'UTF-8' encode="hex"}
+                            {/if}
+                        </li>
+                        <img src="/themes/stalker/img/letter-footer.png" alt="">
+                        <li>
+                            {if $blockcontactinfos_email4 != ''}
+                                {mailto address=$blockcontactinfos_email4|escape:'html':'UTF-8' encode="hex"}
+                            {/if}
+                        </li>
+                        <li>
+                            {if $blockcontactinfos_email6 != ''}
+                                <a href="#" class="more more_rus">Карта проезда<i class="fa fa-angle-down"></i></a>
+                                <a href="#" class="more more_ukr">Карта проїзду<i class="fa fa-angle-down"></i></a>
+                                <a href="#" class="more more_en">Map<i class="fa fa-angle-down"></i></a>
+                                <div class="spoiler-body" style="display: none;"><iframe src="{$blockcontactinfos_email6}" width="400" height="300" frameborder="0" style="border:0" allowfullscreen></iframe></div>
+                            {/if}
+                        </li>
+                    </ul>
+
+                </div>
+                <div class="adr3_ukr">
+
+                    <ul class="address-ft">
+
+                        <li>
+                            {if $blockcontactinfos_company4 != ''}
+                                {$blockcontactinfos_company4|escape:'html':'UTF-8'}
+                            {/if}
+                        </li>
+                        <li>
+                            {if $blockcontactinfos_address4 != ''}
+                                {$blockcontactinfos_address4|escape:'html':'UTF-8'}
+                            {/if}
+                        </li>
+                        <img src="/themes/stalker/img/address-pointer.png" alt="">
+                    </ul>
+
+                    <ul class="phone-ft">
+                        <li>
+                            {if $blockcontactinfos_phone != ''}
+                                {$blockcontactinfos_phone|escape:'html':'UTF-8'}
+                            {/if}
+                        </li>
+                        <li>
+                            {if $blockcontactinfos_phone2 != ''}
+                                {$blockcontactinfos_phone2|escape:'html':'UTF-8'}
+                            {/if}
+                        </li>
+                        <li>
+                            {if $blockcontactinfos_phone3 != ''}
+                                {$blockcontactinfos_phone3|escape:'html':'UTF-8'}
+                            {/if}
+                        </li>
+                        <img src="/themes/stalker/img/phone-footer.png" alt="">
+                    </ul>
+
+                    <ul class="mail-ft">
+                        <li>
+                            {if $blockcontactinfos_email != ''}
+                                {mailto address=$blockcontactinfos_email|escape:'html':'UTF-8' encode="hex"}
+                            {/if}
+
+                        </li>
+                        <img src="/themes/stalker/img/letter-footer.png" alt="">
+                        <li>
+                            {if $blockcontactinfos_email2 != ''}
+                                {mailto address=$blockcontactinfos_email2|escape:'html':'UTF-8' encode="hex"}
+                            {/if}
+                        </li>
+                        <li>
+                            {if $blockcontactinfos_email5 != ''}
+                                <a href="#" class="more more_rus">Карта проезда<i class="fa fa-angle-down"></i></a>
+                                <a href="#" class="more more_ukr">Карта проїзду<i class="fa fa-angle-down"></i></a>
+                                <a href="#" class="more more_en">Map<i class="fa fa-angle-down"></i></a>
+                                <div class="spoiler-body" style="display: none;"><iframe src="{$blockcontactinfos_email6}" width="400" height="300" frameborder="0" style="border:0" allowfullscreen></iframe></div>
+                            {/if}
+                        </li>
+
+                    </ul>
+                </div>
+                <div class="adr3_en">
+
+                    <ul class="address-ft">
+
+                        <li>
+                            {if $blockcontactinfos_company6 != ''}
+                                {$blockcontactinfos_company6|escape:'html':'UTF-8'}
+                            {/if}
+                        </li>
+                        <li>
+                            {if $blockcontactinfos_address6 != ''}
+                                {$blockcontactinfos_address6|escape:'html':'UTF-8'}
+                            {/if}
+                        </li>
+                        <img src="/themes/stalker/img/address-pointer.png" alt="">
+                    </ul>
+
+                    <ul class="phone-ft">
+                        <li>
+                            {if $blockcontactinfos_phone != ''}
+                                {$blockcontactinfos_phone|escape:'html':'UTF-8'}
+                            {/if}
+                        </li>
+                        <li>
+                            {if $blockcontactinfos_phone2 != ''}
+                                {$blockcontactinfos_phone2|escape:'html':'UTF-8'}
+                            {/if}
+                        </li>
+                        <li>
+                            {if $blockcontactinfos_phone3 != ''}
+                                {$blockcontactinfos_phone3|escape:'html':'UTF-8'}
+                            {/if}
+                        </li>
+                        <img src="/themes/stalker/img/phone-footer.png" alt="">
+                    </ul>
+
+                    <ul class="mail-ft">
+                        <li>
+                            {if $blockcontactinfos_email != ''}
+                                {mailto address=$blockcontactinfos_email|escape:'html':'UTF-8' encode="hex"}
+                            {/if}
+
+                        </li>
+                        <img src="/themes/stalker/img/letter-footer.png" alt="">
+                        <li>
+                            {if $blockcontactinfos_email2 != ''}
+                                {mailto address=$blockcontactinfos_email2|escape:'html':'UTF-8' encode="hex"}
+                            {/if}
+                        </li>
+                        <li>
+                            {if $blockcontactinfos_email5 != ''}
+                                <a href="#" class="more more_rus">Карта проезда<i class="fa fa-angle-down"></i></a>
+                                <a href="#" class="more more_ukr">Карта проїзду<i class="fa fa-angle-down"></i></a>
+                                <a href="#" class="more more_en">Map<i class="fa fa-angle-down"></i></a>
+                                <div class="spoiler-body" style="display: none;"><iframe src="{$blockcontactinfos_email5}" width="400" height="300" frameborder="0" style="border:0" allowfullscreen></iframe></div>
+                            {/if}
+                        </li>
+
+                    </ul>
+                </div>
+
+
+            </div>
+        </div>
 
             <!--  <div class="col-md-6">
             <form class="forms form_rus">
@@ -427,18 +611,21 @@
         if($('#first-languages li:first-child.selected').length){
             $('.main-footer .address .adr1_rus').css('display', 'block');
             $('.main-footer .address .adr2_rus').css('display', 'block');
+            $('.main-footer .address .adr3_rus').css('display', 'block');
             $('.main-footer .address .more_rus').css('display', 'block');
             $('.main-footer .form_rus').css('display', 'block');
         }
         if($('#first-languages li:nth-child(2).selected').length){
             $('.main-footer .address .adr1_ukr').css('display', 'block');
             $('.main-footer .address .adr2_ukr').css('display', 'block');
+            $('.main-footer .address .adr3_ukr').css('display', 'block');
             $('.main-footer .address .more_ukr').css('display', 'block');
             $('.main-footer .form_ukr').css('display', 'block');
         }
         if($('#first-languages li:nth-child(3).selected').length){
             $('.main-footer .address .adr1_en').css('display', 'block');
             $('.main-footer .address .adr2_en').css('display', 'block');
+            $('.main-footer .address .adr3_en').css('display', 'block');
             $('.main-footer .address .more_en').css('display', 'block');
             $('.main-footer .form_en').css('display', 'block');
         }
