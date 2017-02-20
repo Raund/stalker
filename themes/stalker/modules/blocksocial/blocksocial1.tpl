@@ -16,7 +16,7 @@
 </script>
 <section id="social_block" class="col-xs-12 col-md-4 col-sm-4 pull-right">
     <div class="clearfix">
-        <a href="#" class="sendmessage_viewform call_rus md-pull-right">Задайте нам вопрос</a>
+        <a href="#" class="sendmessage_viewform call_rus md-pull-right">Задайте нам вопрос{l s='Ask me a question' mod='blocksocial'}</a>
         <a href="#" class="sendmessage_viewform call_ukr md-pull-right">Задайте нам питання</a>
         <a href="#" class="sendmessage_viewform call_en md-pull-right">Ask us a question</a>
     </div>
