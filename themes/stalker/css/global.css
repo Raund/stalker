@@ -9560,6 +9560,7 @@ span.view_scroll_spacer {
 }
 .main-footer ul.address-ft{
   margin-bottom: 10px;
+  min-height: 64px;
 }
 .main-footer ul.address-ft img{
     position: absolute;
@@ -9572,6 +9573,7 @@ span.view_scroll_spacer {
 }
 .main-footer ul.phone-ft{
   margin-bottom: 10px;
+  min-height: 54px;
 }
 .main-footer ul.phone-ft img{
     position: absolute;
